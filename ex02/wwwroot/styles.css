@@ -1,0 +1,17 @@
+﻿body {
+    background-color:gainsboro;
+    text-align:center;
+}
+
+p{
+    font-size:larger;
+    color:deeppink;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1 {
+    font-size: x-large;
+    color: deeppink;
+}
+a{
+    text-size-adjust:150%;
+}
