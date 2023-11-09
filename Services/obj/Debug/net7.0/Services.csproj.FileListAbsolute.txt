@@ -1,0 +1,51 @@
+M:\api\ex02\Services\bin\Debug\net7.0\Services.deps.json
+M:\api\ex02\Services\bin\Debug\net7.0\Services.dll
+M:\api\ex02\Services\bin\Debug\net7.0\Services.pdb
+M:\api\ex02\Services\bin\Debug\net7.0\Entities.dll
+M:\api\ex02\Services\bin\Debug\net7.0\Repository.dll
+M:\api\ex02\Services\bin\Debug\net7.0\Repository.pdb
+M:\api\ex02\Services\bin\Debug\net7.0\Entities.pdb
+M:\api\ex02\Services\obj\Debug\net7.0\Services.csproj.AssemblyReference.cache
+M:\api\ex02\Services\obj\Debug\net7.0\Services.GeneratedMSBuildEditorConfig.editorconfig
+M:\api\ex02\Services\obj\Debug\net7.0\Services.AssemblyInfoInputs.cache
+M:\api\ex02\Services\obj\Debug\net7.0\Services.AssemblyInfo.cs
+M:\api\ex02\Services\obj\Debug\net7.0\Services.csproj.CoreCompileInputs.cache
+M:\api\ex02\Services\obj\Debug\net7.0\Services.csproj.CopyComplete
+M:\api\ex02\Services\obj\Debug\net7.0\Services.dll
+M:\api\ex02\Services\obj\Debug\net7.0\refint\Services.dll
+M:\api\ex02\Services\obj\Debug\net7.0\Services.pdb
+M:\api\ex02\Services\obj\Debug\net7.0\ref\Services.dll
+M:\web api\ex02\Services\bin\Debug\net7.0\Services.deps.json
+M:\web api\ex02\Services\bin\Debug\net7.0\Services.dll
+M:\web api\ex02\Services\bin\Debug\net7.0\Services.pdb
+M:\web api\ex02\Services\bin\Debug\net7.0\Entities.dll
+M:\web api\ex02\Services\bin\Debug\net7.0\Repository.dll
+M:\web api\ex02\Services\bin\Debug\net7.0\Repository.pdb
+M:\web api\ex02\Services\bin\Debug\net7.0\Entities.pdb
+M:\web api\ex02\Services\obj\Debug\net7.0\Services.csproj.AssemblyReference.cache
+M:\web api\ex02\Services\obj\Debug\net7.0\Services.GeneratedMSBuildEditorConfig.editorconfig
+M:\web api\ex02\Services\obj\Debug\net7.0\Services.AssemblyInfoInputs.cache
+M:\web api\ex02\Services\obj\Debug\net7.0\Services.AssemblyInfo.cs
+M:\web api\ex02\Services\obj\Debug\net7.0\Services.csproj.CoreCompileInputs.cache
+M:\web api\ex02\Services\obj\Debug\net7.0\Services.csproj.CopyComplete
+M:\web api\ex02\Services\obj\Debug\net7.0\Services.dll
+M:\web api\ex02\Services\obj\Debug\net7.0\refint\Services.dll
+M:\web api\ex02\Services\obj\Debug\net7.0\Services.pdb
+M:\web api\ex02\Services\obj\Debug\net7.0\ref\Services.dll
+E:\ex02\Services\bin\Debug\net7.0\Services.deps.json
+E:\ex02\Services\bin\Debug\net7.0\Services.dll
+E:\ex02\Services\bin\Debug\net7.0\Services.pdb
+E:\ex02\Services\bin\Debug\net7.0\Entities.dll
+E:\ex02\Services\bin\Debug\net7.0\Repository.dll
+E:\ex02\Services\bin\Debug\net7.0\Repository.pdb
+E:\ex02\Services\bin\Debug\net7.0\Entities.pdb
+E:\ex02\Services\obj\Debug\net7.0\Services.csproj.AssemblyReference.cache
+E:\ex02\Services\obj\Debug\net7.0\Services.GeneratedMSBuildEditorConfig.editorconfig
+E:\ex02\Services\obj\Debug\net7.0\Services.AssemblyInfoInputs.cache
+E:\ex02\Services\obj\Debug\net7.0\Services.AssemblyInfo.cs
+E:\ex02\Services\obj\Debug\net7.0\Services.csproj.CoreCompileInputs.cache
+E:\ex02\Services\obj\Debug\net7.0\Services.csproj.CopyComplete
+E:\ex02\Services\obj\Debug\net7.0\Services.dll
+E:\ex02\Services\obj\Debug\net7.0\refint\Services.dll
+E:\ex02\Services\obj\Debug\net7.0\Services.pdb
+E:\ex02\Services\obj\Debug\net7.0\ref\Services.dll

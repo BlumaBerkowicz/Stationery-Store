@@ -1,25 +1,24 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System;
+using System.Collections.Generic;
 
-namespace Entities
+namespace Entities;
+
+public partial class User
 {
-    public class User
+    public int UserId { get; set; }
+
+    public string Email { get; set; } = null!;
+
+    public string FirstName { get; set; } = null!;
+
+    public string LastName { get; set; } = null!;
+
+    public string Password { get; set; } = null!;
+
+    public virtual ICollection<Order> Orders { get; set; } = new List<Order>();
+
+    public static implicit operator User(Product v)
     {
-
-        public int userId { get; set; }
-        [MaxLength(15)]
-        [MinLength(2)]
-
-        public string firstName { get; set; }
-        [MaxLength(15)]
-        [MinLength(2)]
-        public string lastName { get; set; }
-
-        [EmailAddress]
-        public string userName { get; set; }
-        [Required]
-        public string password { get; set; }
-
-        public static int numOfUsers { get; set; }
-
+        throw new NotImplementedException();
     }
 }

@@ -1,0 +1,45 @@
+M:\api\ex02\Repositories\bin\Debug\net7.0\Repository.deps.json
+M:\api\ex02\Repositories\bin\Debug\net7.0\Repository.dll
+M:\api\ex02\Repositories\bin\Debug\net7.0\Repository.pdb
+M:\api\ex02\Repositories\bin\Debug\net7.0\Entities.dll
+M:\api\ex02\Repositories\bin\Debug\net7.0\Entities.pdb
+M:\api\ex02\Repositories\obj\Debug\net7.0\Repository.csproj.AssemblyReference.cache
+M:\api\ex02\Repositories\obj\Debug\net7.0\Repository.GeneratedMSBuildEditorConfig.editorconfig
+M:\api\ex02\Repositories\obj\Debug\net7.0\Repository.AssemblyInfoInputs.cache
+M:\api\ex02\Repositories\obj\Debug\net7.0\Repository.AssemblyInfo.cs
+M:\api\ex02\Repositories\obj\Debug\net7.0\Repository.csproj.CoreCompileInputs.cache
+M:\api\ex02\Repositories\obj\Debug\net7.0\Repository.csproj.CopyComplete
+M:\api\ex02\Repositories\obj\Debug\net7.0\Repository.dll
+M:\api\ex02\Repositories\obj\Debug\net7.0\refint\Repository.dll
+M:\api\ex02\Repositories\obj\Debug\net7.0\Repository.pdb
+M:\api\ex02\Repositories\obj\Debug\net7.0\ref\Repository.dll
+M:\web api\ex02\Repositories\bin\Debug\net7.0\Repository.deps.json
+M:\web api\ex02\Repositories\bin\Debug\net7.0\Repository.dll
+M:\web api\ex02\Repositories\bin\Debug\net7.0\Repository.pdb
+M:\web api\ex02\Repositories\bin\Debug\net7.0\Entities.dll
+M:\web api\ex02\Repositories\bin\Debug\net7.0\Entities.pdb
+M:\web api\ex02\Repositories\obj\Debug\net7.0\Repository.csproj.AssemblyReference.cache
+M:\web api\ex02\Repositories\obj\Debug\net7.0\Repository.GeneratedMSBuildEditorConfig.editorconfig
+M:\web api\ex02\Repositories\obj\Debug\net7.0\Repository.AssemblyInfoInputs.cache
+M:\web api\ex02\Repositories\obj\Debug\net7.0\Repository.AssemblyInfo.cs
+M:\web api\ex02\Repositories\obj\Debug\net7.0\Repository.csproj.CoreCompileInputs.cache
+M:\web api\ex02\Repositories\obj\Debug\net7.0\Repository.csproj.CopyComplete
+M:\web api\ex02\Repositories\obj\Debug\net7.0\Repository.dll
+M:\web api\ex02\Repositories\obj\Debug\net7.0\refint\Repository.dll
+M:\web api\ex02\Repositories\obj\Debug\net7.0\Repository.pdb
+M:\web api\ex02\Repositories\obj\Debug\net7.0\ref\Repository.dll
+E:\ex02\Repositories\bin\Debug\net7.0\Repository.deps.json
+E:\ex02\Repositories\bin\Debug\net7.0\Repository.dll
+E:\ex02\Repositories\bin\Debug\net7.0\Repository.pdb
+E:\ex02\Repositories\bin\Debug\net7.0\Entities.dll
+E:\ex02\Repositories\bin\Debug\net7.0\Entities.pdb
+E:\ex02\Repositories\obj\Debug\net7.0\Repository.csproj.AssemblyReference.cache
+E:\ex02\Repositories\obj\Debug\net7.0\Repository.GeneratedMSBuildEditorConfig.editorconfig
+E:\ex02\Repositories\obj\Debug\net7.0\Repository.AssemblyInfoInputs.cache
+E:\ex02\Repositories\obj\Debug\net7.0\Repository.AssemblyInfo.cs
+E:\ex02\Repositories\obj\Debug\net7.0\Repository.csproj.CoreCompileInputs.cache
+E:\ex02\Repositories\obj\Debug\net7.0\Repository.csproj.CopyComplete
+E:\ex02\Repositories\obj\Debug\net7.0\Repository.dll
+E:\ex02\Repositories\obj\Debug\net7.0\refint\Repository.dll
+E:\ex02\Repositories\obj\Debug\net7.0\Repository.pdb
+E:\ex02\Repositories\obj\Debug\net7.0\ref\Repository.dll

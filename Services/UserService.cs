@@ -12,28 +12,26 @@ namespace Services
             userRepository = _userRepository;
         }
 
-        public User GetUserByUserNameAndPassword(string UserName, string Password)
+        public async Task<User> GetUserByUserNameAndPassword(string UserName, string Password)
         {
-            return userRepository.GetUserByUserNameAndPassword(UserName, Password);
+            return await userRepository.GetUserByUserNameAndPassword(UserName, Password);
         }
-        public User UpdateUser(int id, User userToUpdate)
+        public async Task<User> UpdateUser(int id, User userToUpdate)
         {
-            if (check(userToUpdate.password) < 2)
+            if (await check(userToUpdate.Password) < 2)
+            if (await check(userToUpdate.Password) < 2)
                 return null;
-            return userRepository.UpdateUser(id, userToUpdate);
+            return await userRepository.UpdateUser(id, userToUpdate);
         }
-        public User Post(User user)
+        public async Task<User> Post(User user)
         {
-            if (check(user.password) < 2)
+            if (await check(user.Password) < 2)
                 return null;
-            return userRepository.Post(user);
+            return await userRepository.Post(user);
         }
-        public int check(string password)
+        public async Task<int> check(string password)
         {
             return Zxcvbn.Core.EvaluatePassword(password).Score;
-
         }
-
     }
-
 }

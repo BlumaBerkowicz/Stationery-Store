@@ -1,8 +1,5 @@
 
 const login = async () => {
-
-
-
     try {
         const response = await fetch(`/api/user/?userName=${document.getElementById("LoginUserName").value}&password=${document.getElementById("Password").value}`)
         if (!response.ok) {
@@ -20,26 +17,6 @@ const login = async () => {
         alert(error, "error")
     }
 }
-
- 
-  //      const LoginUserName = document.getElementById("LoginUserName").value
-  //      const LoginPassword = document.getElementById("Password").value
-  //      var URL = 'api/user' + "?" + "userName=" + LoginUserName + "&password=" + LoginPassword
-  //try {   const res = await fetch(URL,);
-  //    if (!res.ok) { 
-  //          throw new Error("the fetch failed")}
-  //      else {
-  //          const data = await res.json();
-  //          sessionStorage.setItem("user", JSON.stringify(data))
-  //          window.location.href = "./update.html"
-  //      }
-  //  }
-  //  catch (err) {
-  //        alert("error",err)
-  //  }
-//}
-
-
 const  register= async()=>
 {
 const firstName = document.getElementById("firstName").value
@@ -47,7 +24,25 @@ const lastName = document.getElementById("lastName").value
 const userName = document.getElementById("userName").value
     const password = document.getElementById("password").value
     var user = { firstName, lastName, userName, password }
-    if (!checkCode() == "error") {
+
+    /////////////check
+    var meter = document.getElementById('password-strength-meter');
+    var text = document.getElementById('password-strength-text');
+    const Code = document.getElementById("password").value;
+    const res = await fetch('api/user/check', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(Code)
+    });
+    if (!res.ok)
+        throw new Error("error in adding your details to our site")
+    const data = await res.json();
+    meter.value = data;
+    ///////////////
+
+    if (meter.value > 2) {
         try {
             const presponseData = await fetch('api/user', {
                 method: 'POST',
@@ -65,8 +60,7 @@ const userName = document.getElementById("userName").value
         }
     }
     else {
-        alert("your password is weak!")
-    
+        alert("your password is weak!! try again")
     }
 }
 
@@ -117,10 +111,5 @@ const checkCode = async () =>
         throw new Error("error in adding your details to our site")
     const data = await res.json();
     meter.value = data;
-    if (data <= 2) {
-        alert("your password is weak!! try again")
-        return "error";
-    }
-    // Update the password strength meter
-
+    return meter.value;
 }

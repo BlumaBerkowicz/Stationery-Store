@@ -1,0 +1,38 @@
+M:\api\ex02\Entities\bin\Debug\net7.0\Entities.deps.json
+M:\api\ex02\Entities\bin\Debug\net7.0\Entities.dll
+M:\api\ex02\Entities\bin\Debug\net7.0\Entities.pdb
+M:\api\ex02\Entities\obj\Debug\net7.0\Entities.csproj.AssemblyReference.cache
+M:\api\ex02\Entities\obj\Debug\net7.0\Entities.GeneratedMSBuildEditorConfig.editorconfig
+M:\api\ex02\Entities\obj\Debug\net7.0\Entities.AssemblyInfoInputs.cache
+M:\api\ex02\Entities\obj\Debug\net7.0\Entities.AssemblyInfo.cs
+M:\api\ex02\Entities\obj\Debug\net7.0\Entities.csproj.CoreCompileInputs.cache
+M:\api\ex02\Entities\obj\Debug\net7.0\Entities.dll
+M:\api\ex02\Entities\obj\Debug\net7.0\refint\Entities.dll
+M:\api\ex02\Entities\obj\Debug\net7.0\Entities.pdb
+M:\api\ex02\Entities\obj\Debug\net7.0\ref\Entities.dll
+M:\web api\ex02\Entities\bin\Debug\net7.0\Entities.deps.json
+M:\web api\ex02\Entities\bin\Debug\net7.0\Entities.dll
+M:\web api\ex02\Entities\bin\Debug\net7.0\Entities.pdb
+M:\web api\ex02\Entities\obj\Debug\net7.0\Entities.csproj.AssemblyReference.cache
+M:\web api\ex02\Entities\obj\Debug\net7.0\Entities.GeneratedMSBuildEditorConfig.editorconfig
+M:\web api\ex02\Entities\obj\Debug\net7.0\Entities.AssemblyInfoInputs.cache
+M:\web api\ex02\Entities\obj\Debug\net7.0\Entities.AssemblyInfo.cs
+M:\web api\ex02\Entities\obj\Debug\net7.0\Entities.csproj.CoreCompileInputs.cache
+M:\web api\ex02\Entities\obj\Debug\net7.0\Entities.dll
+M:\web api\ex02\Entities\obj\Debug\net7.0\refint\Entities.dll
+M:\web api\ex02\Entities\obj\Debug\net7.0\Entities.pdb
+M:\web api\ex02\Entities\obj\Debug\net7.0\ref\Entities.dll
+E:\ex02\Entities\bin\Debug\net7.0\Entities.deps.json
+E:\ex02\Entities\bin\Debug\net7.0\Entities.dll
+E:\ex02\Entities\bin\Debug\net7.0\Entities.pdb
+E:\ex02\Entities\obj\Debug\net7.0\Entities.csproj.AssemblyReference.cache
+E:\ex02\Entities\obj\Debug\net7.0\Entities.GeneratedMSBuildEditorConfig.editorconfig
+E:\ex02\Entities\obj\Debug\net7.0\Entities.AssemblyInfoInputs.cache
+E:\ex02\Entities\obj\Debug\net7.0\Entities.AssemblyInfo.cs
+E:\ex02\Entities\obj\Debug\net7.0\Entities.csproj.CoreCompileInputs.cache
+E:\ex02\Entities\obj\Debug\net7.0\Entities.dll
+E:\ex02\Entities\obj\Debug\net7.0\refint\Entities.dll
+E:\ex02\Entities\obj\Debug\net7.0\Entities.pdb
+E:\ex02\Entities\obj\Debug\net7.0\ref\Entities.dll
+M:\api\ex02\Entities\bin\Debug\net7.0\Entities.runtimeconfig.json
+M:\api\ex02\Entities\obj\Debug\net7.0\Entities.genruntimeconfig.cache

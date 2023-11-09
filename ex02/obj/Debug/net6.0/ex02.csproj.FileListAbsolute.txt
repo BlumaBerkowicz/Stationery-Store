@@ -1,0 +1,98 @@
+M:\api\ex02\ex02\bin\Debug\net6.0\appsettings.Development.json
+M:\api\ex02\ex02\bin\Debug\net6.0\appsettings.json
+M:\api\ex02\ex02\bin\Debug\net6.0\ex02.staticwebassets.runtime.json
+M:\api\ex02\ex02\bin\Debug\net6.0\ex02.exe
+M:\api\ex02\ex02\bin\Debug\net6.0\ex02.deps.json
+M:\api\ex02\ex02\bin\Debug\net6.0\ex02.runtimeconfig.json
+M:\api\ex02\ex02\bin\Debug\net6.0\ex02.dll
+M:\api\ex02\ex02\bin\Debug\net6.0\ex02.pdb
+M:\api\ex02\ex02\obj\Debug\net6.0\ex02.csproj.AssemblyReference.cache
+M:\api\ex02\ex02\obj\Debug\net6.0\ex02.GeneratedMSBuildEditorConfig.editorconfig
+M:\api\ex02\ex02\obj\Debug\net6.0\ex02.AssemblyInfoInputs.cache
+M:\api\ex02\ex02\obj\Debug\net6.0\ex02.AssemblyInfo.cs
+M:\api\ex02\ex02\obj\Debug\net6.0\ex02.csproj.CoreCompileInputs.cache
+M:\api\ex02\ex02\obj\Debug\net6.0\ex02.MvcApplicationPartsAssemblyInfo.cache
+M:\api\ex02\ex02\obj\Debug\net6.0\staticwebassets\msbuild.ex02.Microsoft.AspNetCore.StaticWebAssets.props
+M:\api\ex02\ex02\obj\Debug\net6.0\staticwebassets\msbuild.build.ex02.props
+M:\api\ex02\ex02\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.ex02.props
+M:\api\ex02\ex02\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.ex02.props
+M:\api\ex02\ex02\obj\Debug\net6.0\staticwebassets.pack.json
+M:\api\ex02\ex02\obj\Debug\net6.0\staticwebassets.build.json
+M:\api\ex02\ex02\obj\Debug\net6.0\staticwebassets.development.json
+M:\api\ex02\ex02\obj\Debug\net6.0\scopedcss\bundle\ex02.styles.css
+M:\api\ex02\ex02\obj\Debug\net6.0\ex02.dll
+M:\api\ex02\ex02\obj\Debug\net6.0\refint\ex02.dll
+M:\api\ex02\ex02\obj\Debug\net6.0\ex02.pdb
+M:\api\ex02\ex02\obj\Debug\net6.0\ex02.genruntimeconfig.cache
+M:\api\ex02\ex02\obj\Debug\net6.0\ref\ex02.dll
+E:\שבים\ex02\ex02\bin\Debug\net6.0\appsettings.Development.json
+E:\שבים\ex02\ex02\bin\Debug\net6.0\appsettings.json
+E:\שבים\ex02\ex02\bin\Debug\net6.0\ex02.staticwebassets.runtime.json
+E:\שבים\ex02\ex02\bin\Debug\net6.0\ex02.exe
+E:\שבים\ex02\ex02\bin\Debug\net6.0\ex02.deps.json
+E:\שבים\ex02\ex02\bin\Debug\net6.0\ex02.runtimeconfig.json
+E:\שבים\ex02\ex02\bin\Debug\net6.0\ex02.dll
+E:\שבים\ex02\ex02\bin\Debug\net6.0\ex02.pdb
+E:\שבים\ex02\ex02\obj\Debug\net6.0\ex02.csproj.AssemblyReference.cache
+E:\שבים\ex02\ex02\obj\Debug\net6.0\ex02.GeneratedMSBuildEditorConfig.editorconfig
+E:\שבים\ex02\ex02\obj\Debug\net6.0\ex02.AssemblyInfoInputs.cache
+E:\שבים\ex02\ex02\obj\Debug\net6.0\ex02.AssemblyInfo.cs
+E:\שבים\ex02\ex02\obj\Debug\net6.0\ex02.csproj.CoreCompileInputs.cache
+E:\שבים\ex02\ex02\obj\Debug\net6.0\ex02.MvcApplicationPartsAssemblyInfo.cache
+E:\שבים\ex02\ex02\obj\Debug\net6.0\staticwebassets.build.json
+E:\שבים\ex02\ex02\obj\Debug\net6.0\staticwebassets.development.json
+E:\שבים\ex02\ex02\obj\Debug\net6.0\scopedcss\bundle\ex02.styles.css
+E:\שבים\ex02\ex02\obj\Debug\net6.0\ex02.dll
+E:\שבים\ex02\ex02\obj\Debug\net6.0\refint\ex02.dll
+E:\שבים\ex02\ex02\obj\Debug\net6.0\ex02.pdb
+E:\שבים\ex02\ex02\obj\Debug\net6.0\ex02.genruntimeconfig.cache
+E:\שבים\ex02\ex02\obj\Debug\net6.0\ref\ex02.dll
+E:\שבים\‏‏תיקיה חדשה\ex02\bin\Debug\net6.0\appsettings.Development.json
+E:\שבים\‏‏תיקיה חדשה\ex02\bin\Debug\net6.0\appsettings.json
+E:\שבים\‏‏תיקיה חדשה\ex02\bin\Debug\net6.0\ex02.staticwebassets.runtime.json
+E:\שבים\‏‏תיקיה חדשה\ex02\bin\Debug\net6.0\ex02.exe
+E:\שבים\‏‏תיקיה חדשה\ex02\bin\Debug\net6.0\ex02.deps.json
+E:\שבים\‏‏תיקיה חדשה\ex02\bin\Debug\net6.0\ex02.runtimeconfig.json
+E:\שבים\‏‏תיקיה חדשה\ex02\bin\Debug\net6.0\ex02.dll
+E:\שבים\‏‏תיקיה חדשה\ex02\bin\Debug\net6.0\ex02.pdb
+E:\שבים\‏‏תיקיה חדשה\ex02\obj\Debug\net6.0\ex02.csproj.AssemblyReference.cache
+E:\שבים\‏‏תיקיה חדשה\ex02\obj\Debug\net6.0\ex02.GeneratedMSBuildEditorConfig.editorconfig
+E:\שבים\‏‏תיקיה חדשה\ex02\obj\Debug\net6.0\ex02.AssemblyInfoInputs.cache
+E:\שבים\‏‏תיקיה חדשה\ex02\obj\Debug\net6.0\ex02.AssemblyInfo.cs
+E:\שבים\‏‏תיקיה חדשה\ex02\obj\Debug\net6.0\ex02.csproj.CoreCompileInputs.cache
+E:\שבים\‏‏תיקיה חדשה\ex02\obj\Debug\net6.0\ex02.MvcApplicationPartsAssemblyInfo.cache
+E:\שבים\‏‏תיקיה חדשה\ex02\obj\Debug\net6.0\staticwebassets.build.json
+E:\שבים\‏‏תיקיה חדשה\ex02\obj\Debug\net6.0\staticwebassets.development.json
+E:\שבים\‏‏תיקיה חדשה\ex02\obj\Debug\net6.0\scopedcss\bundle\ex02.styles.css
+E:\שבים\‏‏תיקיה חדשה\ex02\obj\Debug\net6.0\ex02.dll
+E:\שבים\‏‏תיקיה חדשה\ex02\obj\Debug\net6.0\refint\ex02.dll
+E:\שבים\‏‏תיקיה חדשה\ex02\obj\Debug\net6.0\ex02.pdb
+E:\שבים\‏‏תיקיה חדשה\ex02\obj\Debug\net6.0\ex02.genruntimeconfig.cache
+E:\שבים\‏‏תיקיה חדשה\ex02\obj\Debug\net6.0\ref\ex02.dll
+C:\Users\326206588\Desktop\‏‏תיקיה חדשה\ex02\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\326206588\Desktop\‏‏תיקיה חדשה\ex02\bin\Debug\net6.0\appsettings.json
+C:\Users\326206588\Desktop\‏‏תיקיה חדשה\ex02\bin\Debug\net6.0\ex02.staticwebassets.runtime.json
+C:\Users\326206588\Desktop\‏‏תיקיה חדשה\ex02\bin\Debug\net6.0\ex02.exe
+C:\Users\326206588\Desktop\‏‏תיקיה חדשה\ex02\bin\Debug\net6.0\ex02.deps.json
+C:\Users\326206588\Desktop\‏‏תיקיה חדשה\ex02\bin\Debug\net6.0\ex02.runtimeconfig.json
+C:\Users\326206588\Desktop\‏‏תיקיה חדשה\ex02\bin\Debug\net6.0\ex02.dll
+C:\Users\326206588\Desktop\‏‏תיקיה חדשה\ex02\bin\Debug\net6.0\ex02.pdb
+C:\Users\326206588\Desktop\‏‏תיקיה חדשה\ex02\obj\Debug\net6.0\ex02.csproj.AssemblyReference.cache
+C:\Users\326206588\Desktop\‏‏תיקיה חדשה\ex02\obj\Debug\net6.0\ex02.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\326206588\Desktop\‏‏תיקיה חדשה\ex02\obj\Debug\net6.0\ex02.AssemblyInfoInputs.cache
+C:\Users\326206588\Desktop\‏‏תיקיה חדשה\ex02\obj\Debug\net6.0\ex02.AssemblyInfo.cs
+C:\Users\326206588\Desktop\‏‏תיקיה חדשה\ex02\obj\Debug\net6.0\ex02.csproj.CoreCompileInputs.cache
+C:\Users\326206588\Desktop\‏‏תיקיה חדשה\ex02\obj\Debug\net6.0\ex02.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\326206588\Desktop\‏‏תיקיה חדשה\ex02\obj\Debug\net6.0\staticwebassets\msbuild.ex02.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\326206588\Desktop\‏‏תיקיה חדשה\ex02\obj\Debug\net6.0\staticwebassets\msbuild.build.ex02.props
+C:\Users\326206588\Desktop\‏‏תיקיה חדשה\ex02\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.ex02.props
+C:\Users\326206588\Desktop\‏‏תיקיה חדשה\ex02\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.ex02.props
+C:\Users\326206588\Desktop\‏‏תיקיה חדשה\ex02\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\326206588\Desktop\‏‏תיקיה חדשה\ex02\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\326206588\Desktop\‏‏תיקיה חדשה\ex02\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\326206588\Desktop\‏‏תיקיה חדשה\ex02\obj\Debug\net6.0\scopedcss\bundle\ex02.styles.css
+C:\Users\326206588\Desktop\‏‏תיקיה חדשה\ex02\obj\Debug\net6.0\ex02.dll
+C:\Users\326206588\Desktop\‏‏תיקיה חדשה\ex02\obj\Debug\net6.0\refint\ex02.dll
+C:\Users\326206588\Desktop\‏‏תיקיה חדשה\ex02\obj\Debug\net6.0\ex02.pdb
+C:\Users\326206588\Desktop\‏‏תיקיה חדשה\ex02\obj\Debug\net6.0\ex02.genruntimeconfig.cache
+C:\Users\326206588\Desktop\‏‏תיקיה חדשה\ex02\obj\Debug\net6.0\ref\ex02.dll
