@@ -1,4 +1,6 @@
-﻿using Repositories;
+﻿using Entities;
+using Microsoft.EntityFrameworkCore;
+using Repositories;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,12 +9,24 @@ using System.Threading.Tasks;
 
 namespace Repository
 {
-    public class OrderRepository
+    public class OrderRepository : IOrderRepository
     {
         private readonly AdoNetContext _AdoNetContext;
         public OrderRepository(AdoNetContext AdoNetContext)
         {
             _AdoNetContext = AdoNetContext;
+        }
+        public async Task<IEnumerable<Order>> GetAllOrders()
+        {
+            return await _AdoNetContext.Orders.ToListAsync();
+        }
+
+        public async Task<Order> PostOrder(Order order)
+        {
+            _AdoNetContext.AddAsync(order);
+            _AdoNetContext.SaveChangesAsync();
+          
+            return order;
         }
     }
 }

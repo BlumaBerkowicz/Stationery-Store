@@ -41,7 +41,7 @@ const userName = document.getElementById("userName").value
     const data = await res.json();
     meter.value = data;
     ///////////////
-
+    console.log("check succssed");
     if (meter.value > 2) {
         try {
             const presponseData = await fetch('api/user', {

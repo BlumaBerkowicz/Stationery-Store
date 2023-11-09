@@ -10,7 +10,6 @@ public partial class AdoNetContext : DbContext
     public AdoNetContext()
     {
     }
-
     public AdoNetContext(DbContextOptions<AdoNetContext> options)
         : base(options)
     {

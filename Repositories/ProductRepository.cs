@@ -11,14 +11,14 @@ namespace Repository
 {
     public class ProductRepository : IProductRepository
     {
-        private readonly AdoNetContext _DbContext;
-        public ProductRepository(AdoNetContext dbContext)
+        private readonly AdoNetContext _adoNetContext;
+        public ProductRepository(AdoNetContext adoNetContext)
         {
-            _DbContext = dbContext;
+            _adoNetContext = adoNetContext;
         }
         public async Task<IEnumerable<Product>> GetAllProducts()
         {
-            return await _DbContext.Products.ToListAsync();
+            return await _adoNetContext.Products.ToListAsync();
         }
     }
 }
