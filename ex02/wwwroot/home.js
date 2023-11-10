@@ -7,10 +7,9 @@ const login = async () => {
             return;
         }
         const resUser = await response.json();
-        alert("success");
+        alert("welcome!");
         sessionStorage.setItem("user", JSON.stringify(resUser));
         window.location.href = "./update.html";
-
     }
     catch (error) {
 
@@ -24,25 +23,8 @@ const lastName = document.getElementById("lastName").value
 const userName = document.getElementById("userName").value
     const password = document.getElementById("password").value
     var user = { firstName, lastName, userName, password }
-
-    /////////////check
-    var meter = document.getElementById('password-strength-meter');
-    var text = document.getElementById('password-strength-text');
-    const Code = document.getElementById("password").value;
-    const res = await fetch('api/user/check', {
-        method: 'POST',
-        headers: {
-            'Content-Type': 'application/json'
-        },
-        body: JSON.stringify(Code)
-    });
-    if (!res.ok)
-        throw new Error("error in adding your details to our site")
-    const data = await res.json();
-    meter.value = data;
-    ///////////////
-    console.log("check succssed");
-    if (meter.value > 2) {
+    strength = await checkCode();
+    if (strength > 2) {
         try {
             const presponseData = await fetch('api/user', {
                 method: 'POST',
@@ -77,6 +59,8 @@ const update = async () =>
     var updateUser = { firstName, lastName, userName, password }
     console.log(updateUser);
     const userId = user.userId;
+    strength = await checkCode();
+    if (strength>2){ 
     try {
         const res = await fetch("api/user/" + userId, {
             method: 'PUT',
@@ -90,6 +74,7 @@ const update = async () =>
     }
     catch (error) {
         alert("error",error)
+        }
     }
 
 }
@@ -109,7 +94,5 @@ const checkCode = async () =>
     });
     if (!res.ok)
         throw new Error("error in adding your details to our site")
-    const data = await res.json();
-    meter.value = data;
-    return meter.value;
+    return await res.json();
 }
