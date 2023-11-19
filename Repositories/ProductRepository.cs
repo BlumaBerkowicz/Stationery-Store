@@ -16,9 +16,18 @@ namespace Repository
         {
             _adoNetContext = adoNetContext;
         }
-        public async Task<IEnumerable<Product>> GetAllProducts()
+        public async Task<IEnumerable<Product>> GetAllProducts(string? desc, int? minPrice, int? maxPrice, int?[] categoryIds)
         {
-            return await _adoNetContext.Products.ToListAsync();
+            var query = _adoNetContext.Products.Where(product =>
+            (desc == null ? (true) : (product.Description.Contains(desc)))
+            && ((minPrice == null) ? (true) : (product.Price >= minPrice))
+            && ((maxPrice == null) ? (true) : (product.Price <= maxPrice))
+            && ((categoryIds.Length == 0) ? (true) : (categoryIds.Contains(product.CategoryId))))
+                .OrderBy(product => product.Price);
+            List<Product> products = await query.ToListAsync();
+            return products;
+
+
         }
     }
 }

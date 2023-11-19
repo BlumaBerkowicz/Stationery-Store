@@ -1,4 +1,3 @@
-
 const login = async () => {
     try {
         const response = await fetch(`/api/user/?userName=${document.getElementById("LoginUserName").value}&password=${document.getElementById("Password").value}`)
@@ -6,13 +5,13 @@ const login = async () => {
             throw new Error("user not found");
             return;
         }
-        const resUser = await response.json();
+        //const resUser = await response.json();
         alert("welcome!");
-        sessionStorage.setItem("user", JSON.stringify(resUser));
-        window.location.href = "./update.html";
+        sessionStorage.setItem("user", JSON.stringify(await response.json());
+        window.location.href = "./Products.html";
     }
     catch (error) {
-
+        console.log("this is the problem")
         alert(error, "error")
     }
 }

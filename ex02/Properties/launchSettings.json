@@ -63,7 +63,7 @@
     "IIS Express": {
       "commandName": "IISExpress",
       "launchBrowser": true,
-      "launchUrl": "Register.html",
+      "launchUrl": "Products.html",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }

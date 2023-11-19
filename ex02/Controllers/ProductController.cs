@@ -22,11 +22,10 @@ namespace ex02.Controllers
 
         // GET api/<RegisterAndLogin>/5
         [HttpGet]
-        public async Task<IEnumerable<Product>> Get()
+        public async Task<IEnumerable<Product>> Get([FromQuery] string? desc, [FromQuery] int? minPrice, [FromQuery] int? maxPrice, [FromQuery] int?[] categoryIds)
         {
-            return await _productService.GetAllProducts();
+            return await _productService.GetAllProducts(desc, minPrice, maxPrice, categoryIds);
           //להחזיר מה סוג הפעולה מה הסטטוס
-
 
         }
 

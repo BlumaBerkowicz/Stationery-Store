@@ -1,15 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
-using Entities;
 using Microsoft.EntityFrameworkCore;
+using Entities;
 
-namespace Repositories;
+namespace Repository;
 
 public partial class AdoNetContext : DbContext
 {
     public AdoNetContext()
     {
     }
+
     public AdoNetContext(DbContextOptions<AdoNetContext> options)
         : base(options)
     {
@@ -27,7 +28,7 @@ public partial class AdoNetContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
-        => optionsBuilder.UseSqlServer("Server=srv2\\pupils;Database=adoNet;Trusted_Connection=True;TrustServerCertificate=True");
+        => optionsBuilder.UseSqlServer("Server=srv2\\pupils;Database=AdoNet;Trusted_Connection=True;TrustServerCertificate=True");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
@@ -89,6 +90,10 @@ public partial class AdoNetContext : DbContext
                 .HasMaxLength(50)
                 .IsUnicode(false)
                 .HasColumnName("DESCRIPTION");
+            entity.Property(e => e.Image)
+                .HasMaxLength(50)
+                .IsUnicode(false)
+                .HasColumnName("IMAGE");
             entity.Property(e => e.Price).HasColumnName("PRICE");
             entity.Property(e => e.ProductName)
                 .HasMaxLength(50)

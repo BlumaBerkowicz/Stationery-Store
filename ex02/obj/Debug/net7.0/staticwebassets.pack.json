@@ -1,8 +1,48 @@
 {
   "Files": [
     {
+      "Id": "M:\\api\\ex02\\ex02\\wwwroot\\Images\\BagActive.png",
+      "PackagePath": "staticwebassets\\Images\\BagActive.png"
+    },
+    {
+      "Id": "M:\\api\\ex02\\ex02\\wwwroot\\Images\\Thumbs.db",
+      "PackagePath": "staticwebassets\\Images\\Thumbs.db"
+    },
+    {
+      "Id": "M:\\api\\ex02\\ex02\\wwwroot\\Images\\icn-remove.png",
+      "PackagePath": "staticwebassets\\Images\\icn-remove.png"
+    },
+    {
+      "Id": "M:\\api\\ex02\\ex02\\wwwroot\\Images\\searchIcon.svg",
+      "PackagePath": "staticwebassets\\Images\\searchIcon.svg"
+    },
+    {
+      "Id": "M:\\api\\ex02\\ex02\\wwwroot\\Products.css",
+      "PackagePath": "staticwebassets\\Products.css"
+    },
+    {
+      "Id": "M:\\api\\ex02\\ex02\\wwwroot\\Products.html",
+      "PackagePath": "staticwebassets\\Products.html"
+    },
+    {
+      "Id": "M:\\api\\ex02\\ex02\\wwwroot\\Products.js",
+      "PackagePath": "staticwebassets\\Products.js"
+    },
+    {
+      "Id": "M:\\api\\ex02\\ex02\\wwwroot\\README.md",
+      "PackagePath": "staticwebassets\\README.md"
+    },
+    {
       "Id": "M:\\api\\ex02\\ex02\\wwwroot\\Register.html",
       "PackagePath": "staticwebassets\\Register.html"
+    },
+    {
+      "Id": "M:\\api\\ex02\\ex02\\wwwroot\\ShoppingBag.css",
+      "PackagePath": "staticwebassets\\ShoppingBag.css"
+    },
+    {
+      "Id": "M:\\api\\ex02\\ex02\\wwwroot\\ShoppingBag.html",
+      "PackagePath": "staticwebassets\\ShoppingBag.html"
     },
     {
       "Id": "M:\\api\\ex02\\ex02\\wwwroot\\home.html",

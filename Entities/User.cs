@@ -16,9 +16,4 @@ public partial class User
     public string Password { get; set; } = null!;
 
     public virtual ICollection<Order> Orders { get; set; } = new List<Order>();
-
-    public static implicit operator User(Product v)
-    {
-        throw new NotImplementedException();
-    }
 }
