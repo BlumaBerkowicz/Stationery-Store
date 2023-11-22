@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "M:\\api\\ex02\\Services\\Services.csproj": {}
+    "C:\\My materials\\תרגול סמינר החדש\\webApi\\students_projects\\WebApi-Bekowitz\\Services\\Services.csproj": {}
   },
   "projects": {
-    "M:\\api\\ex02\\Entities\\Entities.csproj": {
+    "C:\\My materials\\תרגול סמינר החדש\\webApi\\students_projects\\WebApi-Bekowitz\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "M:\\api\\ex02\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\My materials\\תרגול סמינר החדש\\webApi\\students_projects\\WebApi-Bekowitz\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "M:\\api\\ex02\\Entities\\Entities.csproj",
-        "packagesPath": "C:\\Users\\326206588\\.nuget\\packages\\",
-        "outputPath": "M:\\api\\ex02\\Entities\\obj\\",
+        "projectPath": "C:\\My materials\\תרגול סמינר החדש\\webApi\\students_projects\\WebApi-Bekowitz\\Entities\\Entities.csproj",
+        "packagesPath": "C:\\Users\\user1\\.nuget\\packages\\",
+        "outputPath": "C:\\My materials\\תרגול סמינר החדש\\webApi\\students_projects\\WebApi-Bekowitz\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\326206588\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user1\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -79,24 +80,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "M:\\api\\ex02\\Repositories\\Repository.csproj": {
+    "C:\\My materials\\תרגול סמינר החדש\\webApi\\students_projects\\WebApi-Bekowitz\\Repositories\\Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "M:\\api\\ex02\\Repositories\\Repository.csproj",
+        "projectUniqueName": "C:\\My materials\\תרגול סמינר החדש\\webApi\\students_projects\\WebApi-Bekowitz\\Repositories\\Repository.csproj",
         "projectName": "Repository",
-        "projectPath": "M:\\api\\ex02\\Repositories\\Repository.csproj",
-        "packagesPath": "C:\\Users\\326206588\\.nuget\\packages\\",
-        "outputPath": "M:\\api\\ex02\\Repositories\\obj\\",
+        "projectPath": "C:\\My materials\\תרגול סמינר החדש\\webApi\\students_projects\\WebApi-Bekowitz\\Repositories\\Repository.csproj",
+        "packagesPath": "C:\\Users\\user1\\.nuget\\packages\\",
+        "outputPath": "C:\\My materials\\תרגול סמינר החדש\\webApi\\students_projects\\WebApi-Bekowitz\\Repositories\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\326206588\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user1\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -105,14 +106,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "M:\\api\\ex02\\Entities\\Entities.csproj": {
-                "projectPath": "M:\\api\\ex02\\Entities\\Entities.csproj"
+              "C:\\My materials\\תרגול סמינר החדש\\webApi\\students_projects\\WebApi-Bekowitz\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\My materials\\תרגול סמינר החדש\\webApi\\students_projects\\WebApi-Bekowitz\\Entities\\Entities.csproj"
               }
             }
           }
@@ -152,24 +154,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "M:\\api\\ex02\\Services\\Services.csproj": {
+    "C:\\My materials\\תרגול סמינר החדש\\webApi\\students_projects\\WebApi-Bekowitz\\Services\\Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "M:\\api\\ex02\\Services\\Services.csproj",
+        "projectUniqueName": "C:\\My materials\\תרגול סמינר החדש\\webApi\\students_projects\\WebApi-Bekowitz\\Services\\Services.csproj",
         "projectName": "Services",
-        "projectPath": "M:\\api\\ex02\\Services\\Services.csproj",
-        "packagesPath": "C:\\Users\\326206588\\.nuget\\packages\\",
-        "outputPath": "M:\\api\\ex02\\Services\\obj\\",
+        "projectPath": "C:\\My materials\\תרגול סמינר החדש\\webApi\\students_projects\\WebApi-Bekowitz\\Services\\Services.csproj",
+        "packagesPath": "C:\\Users\\user1\\.nuget\\packages\\",
+        "outputPath": "C:\\My materials\\תרגול סמינר החדש\\webApi\\students_projects\\WebApi-Bekowitz\\Services\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\326206588\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user1\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -178,14 +180,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "M:\\api\\ex02\\Repositories\\Repository.csproj": {
-                "projectPath": "M:\\api\\ex02\\Repositories\\Repository.csproj"
+              "C:\\My materials\\תרגול סמינר החדש\\webApi\\students_projects\\WebApi-Bekowitz\\Repositories\\Repository.csproj": {
+                "projectPath": "C:\\My materials\\תרגול סמינר החדש\\webApi\\students_projects\\WebApi-Bekowitz\\Repositories\\Repository.csproj"
               }
             }
           }
@@ -225,7 +228,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,7 +1,6 @@
 ﻿using Entities;
 using Repositories;
 using Zxcvbn;
-
 namespace Services
 {
     public class UserService : IUserService
@@ -18,7 +17,7 @@ namespace Services
         }
         public async Task<User> UpdateUser(int id, User userToUpdate)
         {
-            if (await check(userToUpdate.Password) < 2)
+            if (await check(userToUpdate.Password) < 2)//duplicate lines!
             if (await check(userToUpdate.Password) < 2)
                 return null;
             return await userRepository.UpdateUser(id, userToUpdate);

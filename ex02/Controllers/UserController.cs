@@ -35,23 +35,31 @@ namespace ex02.Controllers
         public async Task< CreatedAtActionResult> Post([FromBody] User user)
         {
             try
-            {
+            {            
                 User newUser = await userServices.Post(user);
+                //Check if newUser== null return BadRequest()
+                //CreatedAtAction(nameof(Get), new { id = newUser.UserId }, newUser); - newUser instead of the old user!
                 return CreatedAtAction(nameof(Get), new { id = user.UserId }, user);
+
             }
             catch (Exception e)
-                { throw (e); }
+            //Throwing an exception- cause a 500  error code (internal server error). 
+            { throw (e); }
 
 
         }
         // PUT api/<RegisterAndLogin>/5
         [HttpPut("{id}")]
+        //Function should return Task<ActionResult<User>
+        //Return the updatedUser 
+        //Check : if updatrdUser==null return BadRequesst() (or NoContent())  else OK(user) 
         public async Task<User> Put(int id, [FromBody] User userToUpdate)
         {
             return await userServices.UpdateUser(id, userToUpdate);
         }
 
         [HttpPost("check")]
+        //meaningfull function name: CheckPasswordStrength
         public async Task<int> Check([FromBody] string password)
         {
             if (password != "")
@@ -62,6 +70,7 @@ namespace ex02.Controllers
 
 
         }
+        //Clean code -Remove unnecessary lines of code.
         // DELETE api/<RegisterAndLogin>/5
         [HttpDelete("{id}")]
         public void Delete(int id)

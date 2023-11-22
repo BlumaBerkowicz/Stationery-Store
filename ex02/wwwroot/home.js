@@ -1,7 +1,11 @@
+//Rename project's name- to webApiShopSite, webApiSite etc
 
 const login = async () => {
     try {
         const response = await fetch(`/api/user/?userName=${document.getElementById("LoginUserName").value}&password=${document.getElementById("Password").value}`)
+        //It's better to check response's status: if status==401 alert(userName or password are invalid)
+        //if status==400 model validation error... etc
+         //alert instead of throwing an error
         if (!response.ok) {
             throw new Error("user not found");
             return;
@@ -23,11 +27,13 @@ const firstName = document.getElementById("firstName").value
 const lastName = document.getElementById("lastName").value
 const userName = document.getElementById("userName").value
     const password = document.getElementById("password").value
+    //const
     var user = { firstName, lastName, userName, password }
 
     /////////////check
     var meter = document.getElementById('password-strength-meter');
     var text = document.getElementById('password-strength-text');
+    //const code (lowerCase)
     const Code = document.getElementById("password").value;
     const res = await fetch('api/user/check', {
         method: 'POST',
@@ -69,6 +75,7 @@ const update = async () =>
 {
     const userFromStorage = sessionStorage.getItem("user")
     const user = JSON.parse(userFromStorage)
+    //Remove console (clean code) 
     console.log(user);
     const firstName = document.getElementById("firstName").value ? document.getElementById("firstName").value: user.firstName
     const lastName = document.getElementById("lastName").value ? document.getElementById("lastName").value: user.lastName
@@ -85,10 +92,12 @@ const update = async () =>
             },
             body: JSON.stringify(updateUser)
         });
+        //check res status (200? 400? )
         const response = await res.json();
         aler("update succeed");
     }
     catch (error) {
+         //log the error to the console
         alert("error",error)
     }
 
