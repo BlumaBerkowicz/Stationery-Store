@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using Repository;
 using System.Text.Json;
 
-namespace Repositories
+namespace Repository
 {
     public class UserRepository :  IUserRepository
     {
