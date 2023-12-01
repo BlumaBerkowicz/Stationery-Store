@@ -6,6 +6,7 @@ using Entities;
 using Services;
 using Microsoft.AspNetCore.Mvc;
 using System.Text.Json;
+using AutoMapper;
 
 namespace ex02.Controllers
 {
@@ -14,9 +15,13 @@ namespace ex02.Controllers
     public class ProductController : ControllerBase
     {
         private readonly IProductService _productService;
-        public ProductController(IProductService productService)
+        private readonly IMapper _mapper;
+
+        public ProductController(IProductService productService, IMapper mapper)
         {
             _productService = productService;
+            _mapper = mapper;
+
         }
 
 

@@ -44,14 +44,13 @@ async function drowProducts(product) {
     const clone = prod.content.cloneNode(true);
     clone.querySelector("img").src = "./Images/" + product.image;
     clone.querySelector("h1").innerText = product.productName;
-    clone.querySelector(".price").innerText = product.price+" $";
+    clone.querySelector(".price").innerText = product.price;
     clone.querySelector(".description").innerText = product.description;
-    clone.querySelector("button").addEventListener('click', () => { addToCart(product) });
+    clone.querySelector("button").addEventListener('click', () => { addToCart(product)});
     document.getElementById("PoductList").appendChild(clone);
 }
 const cart = [];
-async function addToCart(product) {
-    //count++
+async function addToCart(product){
     cart.push(product);
     sessionStorage.setItem("cart", JSON.stringify(cart));
 }
@@ -63,16 +62,18 @@ async function drowCategory(category) {
     document.getElementById("categoryList").appendChild(clone);
 }
 async function showProducts() {
-    console.log("the function is works");
     const data = await filterProducts();
     if (data) {
        for (let i = 0; i < data.length; i++) {
         drowProducts(data[i]);
         }
         len = await data.length;
-        console.log(len);
-        //document.getElementById("counter").innerText("length:"+len);
-
+        console.log("כמה מוצרים בחנות",len)
+        document.getElementById("counter").innerTex = len;
+        products_in_cart = JSON.parse(sessionStorage.getItem("cart"))
+        //l = products_in_cart.length
+        //console.log(l, "המוצרים בעגלה")
+        //document.getElementById("counter").innerTex = l;
     }
   
 }

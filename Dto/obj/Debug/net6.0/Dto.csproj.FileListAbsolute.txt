@@ -1,0 +1,12 @@
+M:\api\ex02\Dto\bin\Debug\net6.0\Dto.deps.json
+M:\api\ex02\Dto\bin\Debug\net6.0\Dto.dll
+M:\api\ex02\Dto\bin\Debug\net6.0\Dto.pdb
+M:\api\ex02\Dto\obj\Debug\net6.0\Dto.csproj.AssemblyReference.cache
+M:\api\ex02\Dto\obj\Debug\net6.0\Dto.GeneratedMSBuildEditorConfig.editorconfig
+M:\api\ex02\Dto\obj\Debug\net6.0\Dto.AssemblyInfoInputs.cache
+M:\api\ex02\Dto\obj\Debug\net6.0\Dto.AssemblyInfo.cs
+M:\api\ex02\Dto\obj\Debug\net6.0\Dto.csproj.CoreCompileInputs.cache
+M:\api\ex02\Dto\obj\Debug\net6.0\Dto.dll
+M:\api\ex02\Dto\obj\Debug\net6.0\refint\Dto.dll
+M:\api\ex02\Dto\obj\Debug\net6.0\Dto.pdb
+M:\api\ex02\Dto\obj\Debug\net6.0\ref\Dto.dll

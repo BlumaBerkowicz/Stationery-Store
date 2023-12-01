@@ -16,6 +16,8 @@ public partial class Product
     public string? Description { get; set; }
 
     public string? Image { get; set; }
+    
+
 
     public virtual Category? Category { get; set; }
 

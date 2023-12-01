@@ -50,7 +50,7 @@ p.description{
     height:65px;
 }
 .bar::before {
-    content: 'חנות הבגדים שלי';
+    content: 'חנן';
     color: white;
     /* display: inline-block; */
     position: absolute;
@@ -58,7 +58,7 @@ p.description{
     /* display: block; */
     top: 8px;
     left: 51%;
-    font-family: Helvetica;
+    font-family: Segoe UI Semibold;
 }
 .price {
     color: grey;

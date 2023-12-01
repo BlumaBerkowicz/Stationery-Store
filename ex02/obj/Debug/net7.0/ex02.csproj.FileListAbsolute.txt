@@ -151,3 +151,7 @@ M:\api\ex02\ex02\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
 M:\api\ex02\ex02\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 M:\api\ex02\ex02\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 M:\api\ex02\ex02\obj\Debug\net7.0\ex02.MvcApplicationPartsAssemblyInfo.cs
+M:\api\ex02\ex02\bin\Debug\net7.0\AutoMapper.dll
+M:\api\ex02\ex02\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+M:\api\ex02\ex02\bin\Debug\net7.0\Dto.dll
+M:\api\ex02\ex02\bin\Debug\net7.0\Dto.pdb

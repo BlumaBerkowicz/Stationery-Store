@@ -1,8 +1,156 @@
 {
   "Files": [
     {
+      "Id": "M:\\api\\ex02\\ex02\\wwwroot\\Images\\010321_0705_0046_lslp.png",
+      "PackagePath": "staticwebassets\\Images\\010321_0705_0046_lslp.png"
+    },
+    {
+      "Id": "M:\\api\\ex02\\ex02\\wwwroot\\Images\\010321_0705_0054_lslp.png",
+      "PackagePath": "staticwebassets\\Images\\010321_0705_0054_lslp.png"
+    },
+    {
+      "Id": "M:\\api\\ex02\\ex02\\wwwroot\\Images\\010321_0705_0059_lslp.png",
+      "PackagePath": "staticwebassets\\Images\\010321_0705_0059_lslp.png"
+    },
+    {
+      "Id": "M:\\api\\ex02\\ex02\\wwwroot\\Images\\010321_0705_0062_lslp.png",
+      "PackagePath": "staticwebassets\\Images\\010321_0705_0062_lslp.png"
+    },
+    {
+      "Id": "M:\\api\\ex02\\ex02\\wwwroot\\Images\\010321_0705_0065_lslp.png",
+      "PackagePath": "staticwebassets\\Images\\010321_0705_0065_lslp.png"
+    },
+    {
+      "Id": "M:\\api\\ex02\\ex02\\wwwroot\\Images\\010321_0705_0068_lslp.png",
+      "PackagePath": "staticwebassets\\Images\\010321_0705_0068_lslp.png"
+    },
+    {
+      "Id": "M:\\api\\ex02\\ex02\\wwwroot\\Images\\010322_0706_0110_lslp.png",
+      "PackagePath": "staticwebassets\\Images\\010322_0706_0110_lslp.png"
+    },
+    {
+      "Id": "M:\\api\\ex02\\ex02\\wwwroot\\Images\\010322_0706_0112_lslp.png",
+      "PackagePath": "staticwebassets\\Images\\010322_0706_0112_lslp.png"
+    },
+    {
+      "Id": "M:\\api\\ex02\\ex02\\wwwroot\\Images\\010611_0797_0363_lslp.png",
+      "PackagePath": "staticwebassets\\Images\\010611_0797_0363_lslp.png"
+    },
+    {
+      "Id": "M:\\api\\ex02\\ex02\\wwwroot\\Images\\010611_0797_0364_lslp.png",
+      "PackagePath": "staticwebassets\\Images\\010611_0797_0364_lslp.png"
+    },
+    {
+      "Id": "M:\\api\\ex02\\ex02\\wwwroot\\Images\\010611_0797_0367_lslp.png",
+      "PackagePath": "staticwebassets\\Images\\010611_0797_0367_lslp.png"
+    },
+    {
+      "Id": "M:\\api\\ex02\\ex02\\wwwroot\\Images\\010807_0917_0150_lslp.png",
+      "PackagePath": "staticwebassets\\Images\\010807_0917_0150_lslp.png"
+    },
+    {
+      "Id": "M:\\api\\ex02\\ex02\\wwwroot\\Images\\010807_0917_0152_lslp.png",
+      "PackagePath": "staticwebassets\\Images\\010807_0917_0152_lslp.png"
+    },
+    {
+      "Id": "M:\\api\\ex02\\ex02\\wwwroot\\Images\\010807_0917_0154_lslp.png",
+      "PackagePath": "staticwebassets\\Images\\010807_0917_0154_lslp.png"
+    },
+    {
+      "Id": "M:\\api\\ex02\\ex02\\wwwroot\\Images\\010807_0917_0156_lslp.png",
+      "PackagePath": "staticwebassets\\Images\\010807_0917_0156_lslp.png"
+    },
+    {
+      "Id": "M:\\api\\ex02\\ex02\\wwwroot\\Images\\010807_0917_0158_lslp.png",
+      "PackagePath": "staticwebassets\\Images\\010807_0917_0158_lslp.png"
+    },
+    {
+      "Id": "M:\\api\\ex02\\ex02\\wwwroot\\Images\\010807_0917_0160_lslps.png",
+      "PackagePath": "staticwebassets\\Images\\010807_0917_0160_lslps.png"
+    },
+    {
+      "Id": "M:\\api\\ex02\\ex02\\wwwroot\\Images\\010807_0917_0162_lslps.png",
+      "PackagePath": "staticwebassets\\Images\\010807_0917_0162_lslps.png"
+    },
+    {
+      "Id": "M:\\api\\ex02\\ex02\\wwwroot\\Images\\010807_0917_0273_lslp.png",
+      "PackagePath": "staticwebassets\\Images\\010807_0917_0273_lslp.png"
+    },
+    {
+      "Id": "M:\\api\\ex02\\ex02\\wwwroot\\Images\\020507_1490_0298_lslp.png",
+      "PackagePath": "staticwebassets\\Images\\020507_1490_0298_lslp.png"
+    },
+    {
+      "Id": "M:\\api\\ex02\\ex02\\wwwroot\\Images\\020507_1490_0303_lslp.png",
+      "PackagePath": "staticwebassets\\Images\\020507_1490_0303_lslp.png"
+    },
+    {
+      "Id": "M:\\api\\ex02\\ex02\\wwwroot\\Images\\020906_1669_0066_oslp.png",
+      "PackagePath": "staticwebassets\\Images\\020906_1669_0066_oslp.png"
+    },
+    {
+      "Id": "M:\\api\\ex02\\ex02\\wwwroot\\Images\\1248111869i69Hj.jpg",
+      "PackagePath": "staticwebassets\\Images\\1248111869i69Hj.jpg"
+    },
+    {
+      "Id": "M:\\api\\ex02\\ex02\\wwwroot\\Images\\1313328452c52YK.jpg",
+      "PackagePath": "staticwebassets\\Images\\1313328452c52YK.jpg"
+    },
+    {
+      "Id": "M:\\api\\ex02\\ex02\\wwwroot\\Images\\1313328762u62NM.jpg",
+      "PackagePath": "staticwebassets\\Images\\1313328762u62NM.jpg"
+    },
+    {
+      "Id": "M:\\api\\ex02\\ex02\\wwwroot\\Images\\1313329181f81Ej.jpg",
+      "PackagePath": "staticwebassets\\Images\\1313329181f81Ej.jpg"
+    },
+    {
+      "Id": "M:\\api\\ex02\\ex02\\wwwroot\\Images\\1341145300D00HJ.jpg",
+      "PackagePath": "staticwebassets\\Images\\1341145300D00HJ.jpg"
+    },
+    {
+      "Id": "M:\\api\\ex02\\ex02\\wwwroot\\Images\\1342358100g00Uf.jpg",
+      "PackagePath": "staticwebassets\\Images\\1342358100g00Uf.jpg"
+    },
+    {
+      "Id": "M:\\api\\ex02\\ex02\\wwwroot\\Images\\1342363282a82Wt.jpg",
+      "PackagePath": "staticwebassets\\Images\\1342363282a82Wt.jpg"
+    },
+    {
+      "Id": "M:\\api\\ex02\\ex02\\wwwroot\\Images\\1342364266f66Me.jpg",
+      "PackagePath": "staticwebassets\\Images\\1342364266f66Me.jpg"
+    },
+    {
+      "Id": "M:\\api\\ex02\\ex02\\wwwroot\\Images\\1343503462r62EB.jpg",
+      "PackagePath": "staticwebassets\\Images\\1343503462r62EB.jpg"
+    },
+    {
+      "Id": "M:\\api\\ex02\\ex02\\wwwroot\\Images\\3722.png",
+      "PackagePath": "staticwebassets\\Images\\3722.png"
+    },
+    {
+      "Id": "M:\\api\\ex02\\ex02\\wwwroot\\Images\\74166(2).png",
+      "PackagePath": "staticwebassets\\Images\\74166(2).png"
+    },
+    {
       "Id": "M:\\api\\ex02\\ex02\\wwwroot\\Images\\BagActive.png",
       "PackagePath": "staticwebassets\\Images\\BagActive.png"
+    },
+    {
+      "Id": "M:\\api\\ex02\\ex02\\wwwroot\\Images\\Faber_Castell_Erasers.jpg",
+      "PackagePath": "staticwebassets\\Images\\Faber_Castell_Erasers.jpg"
+    },
+    {
+      "Id": "M:\\api\\ex02\\ex02\\wwwroot\\Images\\MP900438771.JPG",
+      "PackagePath": "staticwebassets\\Images\\MP900438771.JPG"
+    },
+    {
+      "Id": "M:\\api\\ex02\\ex02\\wwwroot\\Images\\MP900442339.JPG",
+      "PackagePath": "staticwebassets\\Images\\MP900442339.JPG"
+    },
+    {
+      "Id": "M:\\api\\ex02\\ex02\\wwwroot\\Images\\Sharpener.jpg",
+      "PackagePath": "staticwebassets\\Images\\Sharpener.jpg"
     },
     {
       "Id": "M:\\api\\ex02\\ex02\\wwwroot\\Images\\Thumbs.db",
@@ -15,6 +163,14 @@
     {
       "Id": "M:\\api\\ex02\\ex02\\wwwroot\\Images\\searchIcon.svg",
       "PackagePath": "staticwebassets\\Images\\searchIcon.svg"
+    },
+    {
+      "Id": "M:\\api\\ex02\\ex02\\wwwroot\\Images\\מספריים.jpg",
+      "PackagePath": "staticwebassets\\Images\\מספריים.jpg"
+    },
+    {
+      "Id": "M:\\api\\ex02\\ex02\\wwwroot\\Images\\סרגל.jpg",
+      "PackagePath": "staticwebassets\\Images\\סרגל.jpg"
     },
     {
       "Id": "M:\\api\\ex02\\ex02\\wwwroot\\Products.css",
@@ -43,6 +199,10 @@
     {
       "Id": "M:\\api\\ex02\\ex02\\wwwroot\\ShoppingBag.html",
       "PackagePath": "staticwebassets\\ShoppingBag.html"
+    },
+    {
+      "Id": "M:\\api\\ex02\\ex02\\wwwroot\\ShoppingBag.js",
+      "PackagePath": "staticwebassets\\ShoppingBag.js"
     },
     {
       "Id": "M:\\api\\ex02\\ex02\\wwwroot\\home.html",

@@ -17,18 +17,6 @@ namespace Repositories
         {
             return await _DbContext.Users.Where(user => user.Email == userName && user.Password == password).FirstOrDefaultAsync();
 
-            //using (StreamReader reader = System.IO.File.OpenText(FilePath))
-            //{
-            //    string? currentUserInFile;
-            //    while ((currentUserInFile = reader.ReadLine()) != null)
-            //    {
-            //        User user = JsonSerializer.Deserialize<User>(currentUserInFile);
-            //        if (user.Email == userName && user.Password == password)
-            //            return user;
-            //    }
-            //}
-            //return null;
-
         }
         public async Task<User> UpdateUser(int id, User userToUpdate)
         {
@@ -39,7 +27,7 @@ namespace Repositories
         }
         public async Task<User> Post(User user)
         {
-            _DbContext.AddAsync(user);
+            _DbContext.Users.AddAsync(user);
             _DbContext.SaveChangesAsync();
             return user;
         }

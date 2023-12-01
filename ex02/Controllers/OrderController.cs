@@ -1,4 +1,6 @@
-﻿using Entities;
+﻿using AutoMapper;
+using Dto;
+using Entities;
 using Microsoft.AspNetCore.Mvc;
 using Services;
 
@@ -9,9 +11,13 @@ namespace ex02.Controllers
     public class OrderController : Controller
     {
         private readonly IOrderService _orderService;
-        public OrderController(IOrderService orderService)
+        private readonly IMapper _mapper;
+
+        public OrderController(IOrderService orderService, IMapper mapper)
         {
             _orderService = orderService;
+            _mapper = mapper;
+
         }
 
 
@@ -20,17 +26,19 @@ namespace ex02.Controllers
         public async Task<IEnumerable<Order>> Get()
         {
             return await _orderService.GetAllOrders();
-            //להחזיר מה סוג הפעולה מה הסטטוס
+            
         }
 
         // POST api/<RegisterAndLogin>
         [HttpPost]
-        public async Task<CreatedAtActionResult> Post([FromBody] Order order)
+        public async Task<ActionResult<OrderDto>> Post([FromBody] OrderDto orderDto)
         {
             try
             {
-                Order new_order = await _orderService.PostOrder(order);
-                return CreatedAtAction(nameof(Get), new { id = order.OrderId }, order);
+                Order new_order = _mapper.Map<OrderDto, Order>(orderDto);
+                Order order = await _orderService.PostOrder(new_order);
+                OrderDto orderDto1 = _mapper.Map<Order, OrderDto>(order);
+                return orderDto1;
             }
             catch (Exception e)
             { throw (e); }

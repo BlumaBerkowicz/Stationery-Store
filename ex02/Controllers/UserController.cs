@@ -2,6 +2,8 @@
 using Services;
 using Microsoft.AspNetCore.Mvc;
 using System.Text.Json;
+using Dto;
+using AutoMapper;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -12,17 +14,21 @@ namespace ex02.Controllers
     public class UserController : ControllerBase
     {
       private readonly IUserService  userServices;
+        private readonly IMapper _mapper;
 
-        public UserController(IUserService userServices)
+       public UserController(IUserService userServices, IMapper mapper)
         {
             this.userServices = userServices;
+            _mapper = mapper;
         }
 
-
+        [Route("login")]
         // GET api/<RegisterAndLogin>/5
-        [HttpGet]
-        public async Task< ActionResult<User>> Get([FromQuery]string userName="", [FromQuery] string password="")
+        [HttpPost]
+        public async Task< ActionResult<User>> Get([FromBody] UserLoginDto userLOginDto)
         {
+            var userName = userLOginDto.Email;
+            var password = userLOginDto.Password;
             User user = await userServices.GetUserByUserNameAndPassword(userName, password);
             if (user == null)
                 return NoContent();
@@ -32,18 +38,20 @@ namespace ex02.Controllers
 
         // POST api/<RegisterAndLogin>
         [HttpPost]
-        public async Task< CreatedAtActionResult> Post([FromBody] User user)
+        public async Task< CreatedAtActionResult> Post([FromBody] UserDto userDto)
         {
             try
             {
-                User newUser = await userServices.Post(user);
-                return CreatedAtAction(nameof(Get), new { id = user.UserId }, user);
+                User newUser = _mapper.Map<UserDto, User>(userDto);
+                await userServices.Post(newUser);
+                return CreatedAtAction(nameof(Get), new { id = newUser.UserId }, newUser);
             }
             catch (Exception e)
                 { throw (e); }
 
 
         }
+
         // PUT api/<RegisterAndLogin>/5
         [HttpPut("{id}")]
         public async Task<User> Put(int id, [FromBody] User userToUpdate)

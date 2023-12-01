@@ -107,6 +107,7 @@ public partial class AdoNetContext : DbContext
 
         modelBuilder.Entity<User>(entity =>
         {
+            entity.ToTable("USERS");
             entity.Property(e => e.UserId).HasColumnName("USER_ID");
             entity.Property(e => e.Email)
                 .HasMaxLength(50)
