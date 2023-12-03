@@ -1,13 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Entities",
     "\\ex02",
-    "\\ex02\\Controllers",
-    "\\ex02\\wwwroot",
-    "\\Repositories",
-    "\\Services"
+    "\\ex02\\wwwroot"
   ],
-  "SelectedNode": "\\Entities\\Product.cs",
+  "SelectedNode": "\\ex02\\wwwroot\\ShoppingBag.js",
   "PreviewInSolutionExplorer": false
 }

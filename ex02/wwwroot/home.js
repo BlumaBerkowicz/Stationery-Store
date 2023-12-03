@@ -1,5 +1,5 @@
 const login = async () => {
-    try {
+   
         var email = document.getElementById("LoginUserName").value
         var password = document.getElementById("LoginPassword").value
         var user = { email, password };
@@ -20,10 +20,6 @@ const login = async () => {
         alert("welcome!");
         sessionStorage.setItem("user", JSON.stringify(resUser));
         window.location.href = "./Products.html";
-    }
-    catch (error) {
-        alert(error, "error");
-    }
 }
 
     const register = async () =>

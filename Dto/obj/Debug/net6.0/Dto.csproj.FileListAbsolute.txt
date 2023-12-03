@@ -10,3 +10,16 @@ M:\api\ex02\Dto\obj\Debug\net6.0\Dto.dll
 M:\api\ex02\Dto\obj\Debug\net6.0\refint\Dto.dll
 M:\api\ex02\Dto\obj\Debug\net6.0\Dto.pdb
 M:\api\ex02\Dto\obj\Debug\net6.0\ref\Dto.dll
+C:\Users\The user\Source\Repos\BlumaBerkowicz\ex02\Dto\bin\Debug\net6.0\Dto.deps.json
+C:\Users\The user\Source\Repos\BlumaBerkowicz\ex02\Dto\bin\Debug\net6.0\Dto.dll
+C:\Users\The user\Source\Repos\BlumaBerkowicz\ex02\Dto\bin\Debug\net6.0\Dto.pdb
+C:\Users\The user\Source\Repos\BlumaBerkowicz\ex02\Dto\obj\Debug\net6.0\Dto.csproj.AssemblyReference.cache
+C:\Users\The user\Source\Repos\BlumaBerkowicz\ex02\Dto\obj\Debug\net6.0\Dto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\The user\Source\Repos\BlumaBerkowicz\ex02\Dto\obj\Debug\net6.0\Dto.AssemblyInfoInputs.cache
+C:\Users\The user\Source\Repos\BlumaBerkowicz\ex02\Dto\obj\Debug\net6.0\Dto.AssemblyInfo.cs
+C:\Users\The user\Source\Repos\BlumaBerkowicz\ex02\Dto\obj\Debug\net6.0\Dto.csproj.CoreCompileInputs.cache
+C:\Users\The user\Source\Repos\BlumaBerkowicz\ex02\Dto\obj\Debug\net6.0\Dto.sourcelink.json
+C:\Users\The user\Source\Repos\BlumaBerkowicz\ex02\Dto\obj\Debug\net6.0\Dto.dll
+C:\Users\The user\Source\Repos\BlumaBerkowicz\ex02\Dto\obj\Debug\net6.0\refint\Dto.dll
+C:\Users\The user\Source\Repos\BlumaBerkowicz\ex02\Dto\obj\Debug\net6.0\Dto.pdb
+C:\Users\The user\Source\Repos\BlumaBerkowicz\ex02\Dto\obj\Debug\net6.0\ref\Dto.dll

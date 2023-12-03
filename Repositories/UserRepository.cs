@@ -1,9 +1,11 @@
-﻿using Entities;
+﻿using Repository;
 using Microsoft.EntityFrameworkCore;
+using Repositories;
 using Repository;
 using System.Text.Json;
+using Entities;
 
-namespace Repository
+namespace Repositories
 {
     public class UserRepository :  IUserRepository
     {

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "M:\\api\\ex02\\Entities\\Entities.csproj": {}
+    "G:\\ex02\\Entities\\Entities.csproj": {}
   },
   "projects": {
-    "M:\\api\\ex02\\Entities\\Entities.csproj": {
+    "G:\\ex02\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "M:\\api\\ex02\\Entities\\Entities.csproj",
+        "projectUniqueName": "G:\\ex02\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "M:\\api\\ex02\\Entities\\Entities.csproj",
+        "projectPath": "G:\\ex02\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\326206588\\.nuget\\packages\\",
-        "outputPath": "M:\\api\\ex02\\Entities\\obj\\",
+        "outputPath": "G:\\ex02\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

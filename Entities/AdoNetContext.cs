@@ -1,20 +1,28 @@
 ﻿using System;
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
-using Entities;
+using Repository;
+using Microsoft.Extensions.Configuration;
 
-namespace Repository;
+namespace Entities;
 
 public partial class AdoNetContext : DbContext
+
 {
     public AdoNetContext()
     {
     }
+    //public IConfiguration _configuration { get; }
+    //public AdoNetContext(IConfiguration configuration)
+    //{
+    //    _configuration = configuration;
+    //}
 
-    public AdoNetContext(DbContextOptions<AdoNetContext> options)
-        : base(options)
+    public AdoNetContext(DbContextOptions<AdoNetContext> options): base(options)
     {
     }
+
+    
 
     public virtual DbSet<Category> Categories { get; set; }
 
@@ -25,11 +33,13 @@ public partial class AdoNetContext : DbContext
     public virtual DbSet<Product> Products { get; set; }
 
     public virtual DbSet<User> Users { get; set; }
+    public virtual DbSet<Rating> Ratings { get; set; }
+
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
-        => optionsBuilder.UseSqlServer("Server=srv2\\pupils;Database=AdoNet;Trusted_Connection=True;TrustServerCertificate=True");
-
+        => optionsBuilder.UseSqlServer("Server=Blumi\\SQLEXPRESS;Database=AdoNet;Trusted_Connection=True;TrustServerCertificate=True");
+    //=> optionsBuilder.UseSqlServer(_configuration.GetConnectionString("ConnectionString:Home"));
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.Entity<Category>(entity =>
@@ -42,6 +52,7 @@ public partial class AdoNetContext : DbContext
                 .IsUnicode(false)
                 .HasColumnName("CATEGORY_NAME");
         });
+   
 
         modelBuilder.Entity<Order>(entity =>
         {
@@ -126,6 +137,24 @@ public partial class AdoNetContext : DbContext
                 .IsUnicode(false)
                 .HasColumnName("PASSWORD");
         });
+        //modelBuilder.Entity<Rating>(entity =>
+        //{
+        //    entity.HasKey(e => e.RatingId).HasName("PK_RATING");
+
+        //    entity.Property(e => e.RatingId).HasColumnName("RATING_ID");
+        //    entity.Property(e => e.Host)
+        //        .HasMaxLength(50)
+        //        .IsUnicode(false)
+        //        .HasColumnName("HOST");
+        //    entity.Property(e => e.Method)
+        //       .HasMaxLength(50)
+        //       .IsUnicode(false)
+        //       .HasColumnName("METHOD");
+        //    entity.Property(e => e.Method)
+        //     .HasMaxLength(50)
+        //     .IsUnicode(false)
+        //     .HasColumnName("METHOD");
+        //});
 
         OnModelCreatingPartial(modelBuilder);
     }

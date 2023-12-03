@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "M:\\api\\ex02\\Services\\Services.csproj": {}
+    "G:\\ex02\\Services\\Services.csproj": {}
   },
   "projects": {
-    "M:\\api\\ex02\\Entities\\Entities.csproj": {
+    "G:\\ex02\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "M:\\api\\ex02\\Entities\\Entities.csproj",
+        "projectUniqueName": "G:\\ex02\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "M:\\api\\ex02\\Entities\\Entities.csproj",
+        "projectPath": "G:\\ex02\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\326206588\\.nuget\\packages\\",
-        "outputPath": "M:\\api\\ex02\\Entities\\obj\\",
+        "outputPath": "G:\\ex02\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -87,14 +87,14 @@
         }
       }
     },
-    "M:\\api\\ex02\\Repositories\\Repository.csproj": {
+    "G:\\ex02\\Repositories\\Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "M:\\api\\ex02\\Repositories\\Repository.csproj",
+        "projectUniqueName": "G:\\ex02\\Repositories\\Repository.csproj",
         "projectName": "Repository",
-        "projectPath": "M:\\api\\ex02\\Repositories\\Repository.csproj",
+        "projectPath": "G:\\ex02\\Repositories\\Repository.csproj",
         "packagesPath": "C:\\Users\\326206588\\.nuget\\packages\\",
-        "outputPath": "M:\\api\\ex02\\Repositories\\obj\\",
+        "outputPath": "G:\\ex02\\Repositories\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -115,8 +115,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "M:\\api\\ex02\\Entities\\Entities.csproj": {
-                "projectPath": "M:\\api\\ex02\\Entities\\Entities.csproj"
+              "G:\\ex02\\Entities\\Entities.csproj": {
+                "projectPath": "G:\\ex02\\Entities\\Entities.csproj"
               }
             }
           }
@@ -164,14 +164,14 @@
         }
       }
     },
-    "M:\\api\\ex02\\Services\\Services.csproj": {
+    "G:\\ex02\\Services\\Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "M:\\api\\ex02\\Services\\Services.csproj",
+        "projectUniqueName": "G:\\ex02\\Services\\Services.csproj",
         "projectName": "Services",
-        "projectPath": "M:\\api\\ex02\\Services\\Services.csproj",
+        "projectPath": "G:\\ex02\\Services\\Services.csproj",
         "packagesPath": "C:\\Users\\326206588\\.nuget\\packages\\",
-        "outputPath": "M:\\api\\ex02\\Services\\obj\\",
+        "outputPath": "G:\\ex02\\Services\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -192,8 +192,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "M:\\api\\ex02\\Repositories\\Repository.csproj": {
-                "projectPath": "M:\\api\\ex02\\Repositories\\Repository.csproj"
+              "G:\\ex02\\Repositories\\Repository.csproj": {
+                "projectPath": "G:\\ex02\\Repositories\\Repository.csproj"
               }
             }
           }

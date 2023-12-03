@@ -1,7 +1,9 @@
-using Entities;
+using Repository;
 using Repositories;
 using Repository;
 using Services;
+using Entities;
+using ex02.Middlewares;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -26,10 +28,13 @@ builder.Services.AddScoped<IOrderRepository, OrderRepository>();
 
 builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
 builder.Services.AddScoped<ICategoryService, CategoryService>();
+builder.Services.AddScoped<IRatingRepository, RatingRepository>();
+builder.Services.AddScoped<IRatingService, RatingService>();
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
 
 builder.Services.AddDbContext<AdoNetContext>();
+
 
 builder.Services.AddEndpointsApiExplorer();
 
@@ -47,8 +52,10 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
-
+app.UseRatingMiddleware();
+app.UseErrorHandlingMiddleware();
 app.MapControllers();
+
 
 app.UseStaticFiles();
 
