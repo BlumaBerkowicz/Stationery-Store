@@ -7,7 +7,9 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Services
-{
+{/// <summary>
+/// /jjpo
+/// </summary>
     public class RatingService : IRatingService
     {
         private readonly IRatingRepository _ratingRepository;
