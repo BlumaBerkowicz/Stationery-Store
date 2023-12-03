@@ -4,6 +4,7 @@ using Repository;
 using Services;
 using Entities;
 using ex02.Middlewares;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,9 +12,9 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
 
-
-
 // Configure the HTTP request pipeline.
+builder.Services.AddDbContext<AdoNetContext>(option => option.UseSqlServer(builder.Configuration.GetConnectionString("School")));
+
 
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 
@@ -24,12 +25,17 @@ builder.Services.AddScoped<IProductService, ProductService>();
 builder.Services.AddScoped<IProductRepository, ProductRepository>();
 
 builder.Services.AddScoped<IOrderService, OrderService>();
+
 builder.Services.AddScoped<IOrderRepository, OrderRepository>();
 
 builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
+
 builder.Services.AddScoped<ICategoryService, CategoryService>();
+
 builder.Services.AddScoped<IRatingRepository, RatingRepository>();
+
 builder.Services.AddScoped<IRatingService, RatingService>();
+
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
 
@@ -45,6 +51,7 @@ var app = builder.Build();
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
+
     app.UseSwaggerUI();
 }
 
@@ -52,10 +59,9 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
-app.UseRatingMiddleware();
-app.UseErrorHandlingMiddleware();
+//app.UseRatingMiddleware();
+//app.UseErrorHandlingMiddleware();
 app.MapControllers();
-
 
 app.UseStaticFiles();
 

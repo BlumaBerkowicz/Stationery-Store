@@ -24,7 +24,7 @@ namespace ex02.Middlewares
             {
                 _logger.LogError($"Logged From My Middleware {e.Message}  {e.StackTrace}");
                 httpContext.Response.StatusCode = 500;
-                await httpContext.Response.WriteAsync("Internal Error In Server");
+                await httpContext.Response.WriteAsync("Internal Error In Server or not");
             }
 
         }

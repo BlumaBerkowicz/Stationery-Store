@@ -1,6 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Services"
   ],
+  "SelectedNode": "\\Services\\RatingService.cs",
   "PreviewInSolutionExplorer": false
 }

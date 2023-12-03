@@ -4,7 +4,6 @@ using Repository;
 using Entities;
 using System.Threading.Tasks;
 using Services;
-
 namespace ex02.Middlewares
 {
     // You may need to install the Microsoft.AspNetCore.Http.Abstractions package into your project

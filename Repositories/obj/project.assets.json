@@ -3162,11 +3162,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\ex02\\Repositories\\Repository.csproj",
+      "projectUniqueName": "M:\\api\\ex02\\Repositories\\Repository.csproj",
       "projectName": "Repository",
-      "projectPath": "G:\\ex02\\Repositories\\Repository.csproj",
+      "projectPath": "M:\\api\\ex02\\Repositories\\Repository.csproj",
       "packagesPath": "C:\\Users\\326206588\\.nuget\\packages\\",
-      "outputPath": "G:\\ex02\\Repositories\\obj\\",
+      "outputPath": "M:\\api\\ex02\\Repositories\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -3187,8 +3187,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "G:\\ex02\\Entities\\Entities.csproj": {
-              "projectPath": "G:\\ex02\\Entities\\Entities.csproj"
+            "M:\\api\\ex02\\Entities\\Entities.csproj": {
+              "projectPath": "M:\\api\\ex02\\Entities\\Entities.csproj"
             }
           }
         }

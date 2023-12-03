@@ -5,14 +5,15 @@ async function filterProducts() {
     const nameSearch = document.getElementById("nameSearch").value;
 
     try {
-
+        let url = `api/Product?desc=${nameSearch}&minPrice=${minPrice}&maxPrice=${maxPrice}`;
         let checkedCategories = [];
         let allCategories = document.querySelectorAll(".opt");
+        console.log(allCategories)
         for (let i = 0; i < allCategories.length; i++) {
             if (allCategories[i].checked)
                 checkedCategories.push(allCategories[i].value)
         }
-        let url = `api/Product?desc=${nameSearch}&minPrice=${minPrice}&maxPrice=${maxPrice}`;
+
         const length = document.querySelectorAll(".opt");
         if (checkedCategories) {
             for (let i = 0; i < checkedCategories.length; i++) {

@@ -1,9 +1,12 @@
 ﻿using Entities;
+using Microsoft.Data.SqlClient;
 using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace Repository
 {
@@ -16,7 +19,21 @@ namespace Repository
         }
         public async Task Post(Rating rating)
         {
-            return;
+            string queryString = "INSERT INTO Rating(categoryId,name,price,description,image)" +
+                    "VALUES(@categoryId,@name,@price,@description,@image)";
+
+            using (SqlConnection connection = new SqlConnection(connectionstring))
+            using (SqlCommand command = new SqlCommand(queryString, connection))
+            {
+                command.Parameters.Add("@name", SqlDbType.VarChar, 50).Value = name;
+                command.Parameters.Add("@description", SqlDbType.VarChar, 200).Value = description;
+                command.Parameters.Add("@image", SqlDbType.VarChar, 50).Value = image;
+                command.Parameters.Add("@categoryId", SqlDbType.Int).Value = categoryId;
+                command.Parameters.Add("@price", SqlDbType.Int).Value = price;
+                connection.Open();
+                int rowsAffect = command.ExecuteNonQuery();
+                return rowsAffect;
+            }
         }
     }
 }
