@@ -13,8 +13,8 @@ namespace Repository
     public class CategoryRepository : ICategoryRepository
     {
 
-        private readonly AdoNetContext _AdoNetContext;
-        public CategoryRepository(AdoNetContext AdoNetContext)
+        private readonly MyStoreDBContext _AdoNetContext;
+        public CategoryRepository(MyStoreDBContext AdoNetContext)
         {
             _AdoNetContext = AdoNetContext;
         }

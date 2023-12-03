@@ -1,5 +1,4 @@
 const login = async () => {
-   
         var email = document.getElementById("LoginUserName").value
         var password = document.getElementById("LoginPassword").value
         var user = { email, password };
@@ -16,9 +15,10 @@ const login = async () => {
             throw new Error("user not found");
             return;
         }
-        const resUser = await response.json();
+    const resUser = await response.json();
+
         alert("welcome!");
-        sessionStorage.setItem("user", JSON.stringify(resUser));
+       sessionStorage.setItem("user", JSON.stringify(resUser));
         window.location.href = "./Products.html";
 }
 

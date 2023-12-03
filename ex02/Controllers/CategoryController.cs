@@ -3,6 +3,8 @@ using Dto;
 using Repository;
 using Microsoft.AspNetCore.Mvc;
 using Services;
+using Entities;
+
 
 namespace ex02.Controllers
 {

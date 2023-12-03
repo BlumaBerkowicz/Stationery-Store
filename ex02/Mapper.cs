@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using Dto;
 using Repository;
+using Entities;
 
 namespace ex02
 {

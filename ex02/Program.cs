@@ -13,7 +13,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 
 // Configure the HTTP request pipeline.
-builder.Services.AddDbContext<AdoNetContext>(option => option.UseSqlServer(builder.Configuration.GetConnectionString("School")));
+builder.Services.AddDbContext<MyStoreDBContext>(option => option.UseSqlServer(builder.Configuration.GetConnectionString("School")));
 
 
 builder.Services.AddScoped<IUserRepository, UserRepository>();
@@ -39,7 +39,7 @@ builder.Services.AddScoped<IRatingService, RatingService>();
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
 
-builder.Services.AddDbContext<AdoNetContext>();
+builder.Services.AddDbContext<MyStoreDBContext>();
 
 
 builder.Services.AddEndpointsApiExplorer();

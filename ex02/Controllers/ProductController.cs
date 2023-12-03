@@ -7,6 +7,7 @@ using Services;
 using Microsoft.AspNetCore.Mvc;
 using System.Text.Json;
 using AutoMapper;
+using Entities;
 
 namespace ex02.Controllers
 {

@@ -12,8 +12,8 @@ namespace Repository
 {
     public class OrderRepository : IOrderRepository
     {
-        private readonly AdoNetContext _AdoNetContext;
-        public OrderRepository(AdoNetContext AdoNetContext)
+        private readonly MyStoreDBContext _AdoNetContext;
+        public OrderRepository(MyStoreDBContext AdoNetContext)
         {
             _AdoNetContext = AdoNetContext;
         }

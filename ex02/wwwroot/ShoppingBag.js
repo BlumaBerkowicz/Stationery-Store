@@ -30,17 +30,15 @@ function deleteProd(prod) {
     getProduct()
 }
 async function placeOrder() {
-    console.log("im in function")
+    const TheuserId = JSON.parse(sessionStorage.getItem("user")).userId;
+    if (TheuserId) { 
     var order = {
         orderDate: new Date(),
         orderSum: count,
-        userId: JSON.parse(sessionStorage.getItem("user")).userId,
+        userId: TheuserId
         orderItems: products
     };
-    console.log("this is the order", order)
 
-    if (order.userId) { 
-        console.log("im in the fetch")
     try {
         const res = await fetch('api/Order', {
                 method: 'POST',
@@ -53,7 +51,6 @@ async function placeOrder() {
             alert("faild to place your older...try again.")
         else {
             const response = await res.json();
-            console.log(response.orderId)
             sessionStorage.removeItem("cart")
             alert(`order number ${response.orderId} recived sucssesfully`)
         }
@@ -62,5 +59,6 @@ async function placeOrder() {
         alert("err", err)
         }
     }
-    console.log("i finishd the order")
+    else
+        window.location.href = "./home.html";
 }

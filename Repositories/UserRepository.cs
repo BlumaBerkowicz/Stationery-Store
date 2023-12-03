@@ -9,8 +9,8 @@ namespace Repositories
 {
     public class UserRepository :  IUserRepository
     {
-        private readonly AdoNetContext _DbContext;
-        public UserRepository(AdoNetContext dbContext)
+        private readonly MyStoreDBContext _DbContext;
+        public UserRepository(MyStoreDBContext dbContext)
         {
             _DbContext = dbContext;
         }

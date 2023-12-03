@@ -12,8 +12,8 @@ namespace Repository
 {
     public class ProductRepository : IProductRepository
     {
-        private readonly AdoNetContext _adoNetContext;
-        public ProductRepository(AdoNetContext adoNetContext)
+        private readonly MyStoreDBContext _adoNetContext;
+        public ProductRepository(MyStoreDBContext adoNetContext)
         {
             _adoNetContext = adoNetContext;
         }

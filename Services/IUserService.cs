@@ -1,4 +1,5 @@
 ﻿using Repository;
+using Entities;
 
 namespace Services
 {

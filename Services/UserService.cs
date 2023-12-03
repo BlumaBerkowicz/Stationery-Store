@@ -1,6 +1,7 @@
 ﻿using Repository;
 using Repositories;
 using Zxcvbn;
+using Entities;
 
 namespace Services
 {

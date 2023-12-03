@@ -1,4 +1,6 @@
 ﻿using Repository;
+using Entities;
+
 
 namespace Repository
 {
