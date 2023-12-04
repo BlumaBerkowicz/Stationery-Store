@@ -8,7 +8,6 @@ For Database: SQL
 
 # Pre-requisites:
 Microsoft Visual Studio
-Microsoft SQL Server Express
 Microsoft SQL Server Management Studio (SSMS)
 
 # How to Run
