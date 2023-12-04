@@ -1,4 +1,5 @@
-# ex02
+# Stationary Store
+This 
 # Technologies Used:
 For Frontend: HTML, CSS, JavaScript
 
