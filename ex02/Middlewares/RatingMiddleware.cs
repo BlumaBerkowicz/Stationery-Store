@@ -16,17 +16,17 @@ namespace ex02.Middlewares
             _next = next;
         }
 
-        public Task Invoke(HttpContext httpContext,IRatingService ratingService)
+        public async Task Invoke(HttpContext httpContext,IRatingService ratingService)
         {
             Rating rating = new Rating();
-            rating.RecordDate = new DateTime();
+            rating.RecordDate = DateTime.Now;
             rating.Host = httpContext.Request.Host.ToString();
             rating.Method = httpContext.Request.Method;
             rating.Path = httpContext.Request.Path;
             rating.Referer = httpContext.Request.Headers.Referer;
             rating.UserAgent = httpContext.Request.Headers.UserAgent;
-            ratingService.Post(rating);
-            return _next(httpContext);
+            await ratingService.Post(rating);
+            await _next(httpContext);
         }
     }
 

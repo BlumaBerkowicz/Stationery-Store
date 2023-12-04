@@ -47,6 +47,14 @@
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[12.0.1, )"
+            },
+            "NLog.MailKit": {
+              "target": "Package",
+              "version": "[5.2.0, )"
+            },
+            "NLog.Web.AspNetCore": {
+              "target": "Package",
+              "version": "[5.3.5, )"
             }
           },
           "imports": [
@@ -122,6 +130,14 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[7.0.13, )"
+            },
+            "NLog.MailKit": {
+              "target": "Package",
+              "version": "[5.2.0, )"
+            },
+            "NLog.Web.AspNetCore": {
+              "target": "Package",
+              "version": "[5.3.5, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -213,6 +229,14 @@
               "target": "Package",
               "version": "[7.0.13, )"
             },
+            "NLog.MailKit": {
+              "target": "Package",
+              "version": "[5.2.0, )"
+            },
+            "NLog.Web.AspNetCore": {
+              "target": "Package",
+              "version": "[5.3.5, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.5.0, )"
@@ -273,6 +297,9 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
+              "M:\\api\\ex02\\Dto\\Dto.csproj": {
+                "projectPath": "M:\\api\\ex02\\Dto\\Dto.csproj"
+              },
               "M:\\api\\ex02\\Entities\\Entities.csproj": {
                 "projectPath": "M:\\api\\ex02\\Entities\\Entities.csproj"
               }
@@ -292,6 +319,14 @@
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[12.0.1, )"
+            },
+            "NLog.MailKit": {
+              "target": "Package",
+              "version": "[5.2.0, )"
+            },
+            "NLog.Web.AspNetCore": {
+              "target": "Package",
+              "version": "[5.3.5, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -350,6 +385,9 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
+              "M:\\api\\ex02\\Dto\\Dto.csproj": {
+                "projectPath": "M:\\api\\ex02\\Dto\\Dto.csproj"
+              },
               "M:\\api\\ex02\\Repositories\\Repository.csproj": {
                 "projectPath": "M:\\api\\ex02\\Repositories\\Repository.csproj"
               }
@@ -369,6 +407,14 @@
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[12.0.1, )"
+            },
+            "NLog.MailKit": {
+              "target": "Package",
+              "version": "[5.2.0, )"
+            },
+            "NLog.Web.AspNetCore": {
+              "target": "Package",
+              "version": "[5.3.5, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

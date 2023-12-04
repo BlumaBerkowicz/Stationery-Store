@@ -1,3 +1,5 @@
+var cart = [];
+var count = 0;
 async function filterProducts() {
     document.getElementById("PoductList").replaceChildren([]);
     const minPrice = document.getElementById("minPrice").value;
@@ -8,7 +10,6 @@ async function filterProducts() {
         let url = `api/Product?desc=${nameSearch}&minPrice=${minPrice}&maxPrice=${maxPrice}`;
         let checkedCategories = [];
         let allCategories = document.querySelectorAll(".opt");
-        console.log(allCategories)
         for (let i = 0; i < allCategories.length; i++) {
             if (allCategories[i].checked)
                 checkedCategories.push(allCategories[i].value)
@@ -26,18 +27,13 @@ async function filterProducts() {
     }
 
     catch (error) {
-        alert("cdf4rgthg", error)
+        alert("failed to load products", error)
     }
 }
 async function getCategories() {
-    try {
         const res = await fetch(`api/Category`);
         const data = await res.json();
         return data;
-    }
-    catch (error) {
-        alert("error", error)
-    }
 }
 
 async function drowProducts(product) {
@@ -50,10 +46,10 @@ async function drowProducts(product) {
     clone.querySelector("button").addEventListener('click', () => { addToCart(product)});
     document.getElementById("PoductList").appendChild(clone);
 }
-const cart = [];
-async function addToCart(product){
+async function addToCart(product) {
     cart.push(product);
     sessionStorage.setItem("cart", JSON.stringify(cart));
+    document.getElementById("ItemsCountText").innerHTML =JSON.parse(sessionStorage.getItem("cart")).length;
 }
 async function drowCategory(category) {
     const prod = document.getElementById("temp-category");
@@ -63,18 +59,19 @@ async function drowCategory(category) {
     document.getElementById("categoryList").appendChild(clone);
 }
 async function showProducts() {
+    if (JSON.parse(sessionStorage.getItem("cart")))
+    {
+        count = JSON.parse(sessionStorage.getItem("cart")).length;
+        cart = JSON.parse(sessionStorage.getItem("cart"));
+    }
+    document.getElementById("ItemsCountText").innerHTML = count
     const data = await filterProducts();
     if (data) {
        for (let i = 0; i < data.length; i++) {
         drowProducts(data[i]);
         }
         len = await data.length;
-        console.log("כמה מוצרים בחנות",len)
-        document.getElementById("counter").innerTex = len;
-        products_in_cart = JSON.parse(sessionStorage.getItem("cart"))
-        //l = products_in_cart.length
-        //console.log(l, "המוצרים בעגלה")
-        //document.getElementById("counter").innerTex = l;
+        document.getElementById("counter").innerText = len;
     }
   
 }

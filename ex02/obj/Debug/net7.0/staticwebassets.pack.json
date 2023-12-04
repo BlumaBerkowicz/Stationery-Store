@@ -233,6 +233,10 @@
       "PackagePath": "staticwebassets\\ShoppingBag.js"
     },
     {
+      "Id": "M:\\api\\ex02\\ex02\\wwwroot\\Update.js",
+      "PackagePath": "staticwebassets\\Update.js"
+    },
+    {
       "Id": "M:\\api\\ex02\\ex02\\wwwroot\\home.html",
       "PackagePath": "staticwebassets\\home.html"
     },

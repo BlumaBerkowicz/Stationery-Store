@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "0F2esCePvZZUcrJn2R3xTfNABhMj7oFcew4VLjvZaHg=",
+  "Hash": "IayeLROfpMFj1uGIIxoGqhKlvWH8KWETCZvvuhtl7Hk=",
   "Source": "ex02",
   "BasePath": "_content/ex02",
   "Mode": "Default",
@@ -1086,6 +1086,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\update.html"
+    },
+    {
+      "Identity": "M:\\api\\ex02\\ex02\\wwwroot\\Update.js",
+      "SourceId": "ex02",
+      "SourceType": "Discovered",
+      "ContentRoot": "M:\\api\\ex02\\ex02\\wwwroot\\",
+      "BasePath": "_content/ex02",
+      "RelativePath": "Update.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Update.js"
     }
   ]
 }

@@ -58,6 +58,14 @@
               "target": "Package",
               "version": "[7.0.13, )"
             },
+            "NLog.MailKit": {
+              "target": "Package",
+              "version": "[5.2.0, )"
+            },
+            "NLog.Web.AspNetCore": {
+              "target": "Package",
+              "version": "[5.3.5, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.5.0, )"

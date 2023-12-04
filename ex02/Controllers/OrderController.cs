@@ -37,6 +37,8 @@ namespace ex02.Controllers
             try
             {
                 Order new_order = _mapper.Map<OrderDto, Order>(orderDto);
+                new_order.OrderDate = DateTime.Now;
+
                 Order order = await _orderService.PostOrder(new_order);
                 OrderDto orderDto1 = _mapper.Map<Order, OrderDto>(order);
                 return orderDto1;

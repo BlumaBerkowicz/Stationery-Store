@@ -12,20 +12,20 @@ namespace Repository
 {
     public class OrderRepository : IOrderRepository
     {
-        private readonly MyStoreDBContext _AdoNetContext;
-        public OrderRepository(MyStoreDBContext AdoNetContext)
+        private readonly MyStoreDbContext _MyStoreDbContext;
+        public OrderRepository(MyStoreDbContext MyStoreDbContext)
         {
-            _AdoNetContext = AdoNetContext;
+            _MyStoreDbContext = MyStoreDbContext;
         }
         public async Task<IEnumerable<Order>> GetAllOrders()
         {
-            return await _AdoNetContext.Orders.ToListAsync();
+            return await _MyStoreDbContext.Orders.ToListAsync();
         }
 
         public async Task<Order> PostOrder(Order order)
         {
-            _AdoNetContext.AddAsync(order);
-            _AdoNetContext.SaveChangesAsync();
+            await _MyStoreDbContext.Orders.AddAsync(order);
+           await _MyStoreDbContext.SaveChangesAsync();
           
             return order;
         }

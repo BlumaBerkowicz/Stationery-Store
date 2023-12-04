@@ -1,18 +1,20 @@
 ﻿using System;
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 
 namespace Entities;
 
-public partial class MyStoreDBContext : DbContext
+public partial class MyStoreDbContext : DbContext
 {
-    public MyStoreDBContext()
+    public MyStoreDbContext()
     {
     }
-
-    public MyStoreDBContext(DbContextOptions<MyStoreDBContext> options)
+    private readonly IConfiguration _configuration;
+    public MyStoreDbContext(DbContextOptions<MyStoreDbContext> options, IConfiguration configuration)
         : base(options)
     {
+        _configuration = configuration;
     }
 
     public virtual DbSet<Category> Categories { get; set; }
@@ -29,7 +31,7 @@ public partial class MyStoreDBContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
-        => optionsBuilder.UseSqlServer("Server=srv2\\pupils;Database=MyStoreDB;Trusted_Connection=True;TrustServerCertificate=True");
+        => optionsBuilder.UseSqlServer(_configuration.GetConnectionString("School"));
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
@@ -111,25 +113,30 @@ public partial class MyStoreDBContext : DbContext
             entity.ToTable("RATING");
 
             entity.Property(e => e.RatingId).HasColumnName("RATING_ID");
+
             entity.Property(e => e.Host)
-                .HasMaxLength(50)
-                .HasColumnName("HOST");
+                .HasColumnName("HOST")
+                .HasMaxLength(50);
+
             entity.Property(e => e.Method)
+                .HasColumnName("METHOD")
                 .HasMaxLength(10)
-                .IsFixedLength()
-                .HasColumnName("METHOD");
+                .IsFixedLength();
+
             entity.Property(e => e.Path)
-                .HasMaxLength(50)
-                .HasColumnName("PATH");
+                .HasColumnName("PATH")
+                .HasMaxLength(50);
+
             entity.Property(e => e.RecordDate)
-                .HasColumnType("datetime")
-                .HasColumnName("Record_Date");
+             .HasColumnName("Record_Date")
+             .HasColumnType("datetime");
+
             entity.Property(e => e.Referer)
-                .HasMaxLength(100)
-                .HasColumnName("REFERER");
+                .HasColumnName("REFERER")
+                .HasMaxLength(100);
+
             entity.Property(e => e.UserAgent).HasColumnName("USER_AGENT");
         });
-
         modelBuilder.Entity<User>(entity =>
         {
             entity.Property(e => e.UserId).HasColumnName("USER_ID");

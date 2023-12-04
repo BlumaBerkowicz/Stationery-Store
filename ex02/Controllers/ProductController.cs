@@ -2,12 +2,10 @@
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Services;
-using Repository;
-using Services;
-using Microsoft.AspNetCore.Mvc;
 using System.Text.Json;
 using AutoMapper;
 using Entities;
+using Dto;
 
 namespace ex02.Controllers
 {
@@ -28,10 +26,18 @@ namespace ex02.Controllers
 
         // GET api/<RegisterAndLogin>/5
         [HttpGet]
-        public async Task<IEnumerable<Product>> Get([FromQuery] string? desc, [FromQuery] int? minPrice, [FromQuery] int? maxPrice, [FromQuery] int?[] categoryIds)
+        public async Task<ActionResult<IEnumerable<ProductDto>>> Get([FromQuery] string? desc, [FromQuery] int? minPrice, [FromQuery] int? maxPrice, [FromQuery] int?[] categoryIds)
         {
-            return await _productService.GetAllProducts(desc, minPrice, maxPrice, categoryIds);
-          //להחזיר מה סוג הפעולה מה הסטטוס
+
+            IEnumerable<Product> products = await _productService.GetAllProducts(desc, minPrice, maxPrice, categoryIds);
+            IEnumerable<ProductDto> productsDto = _mapper.Map<IEnumerable<Product>, IEnumerable<ProductDto>>(products);
+            if (productsDto.Count() == 0)
+            {
+                return NoContent();
+            }
+
+            return Ok(productsDto);
+            //להחזיר מה סוג הפעולה מה הסטטוס
 
         }
 

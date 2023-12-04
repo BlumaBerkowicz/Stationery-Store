@@ -8,11 +8,14 @@
 
   <ItemGroup>
     <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
+    <PackageReference Include="NLog.MailKit" Version="5.2.0" />
+    <PackageReference Include="NLog.Web.AspNetCore" Version="5.3.5" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
     <PackageReference Include="zxcvbn-core" Version="7.0.92" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Dto\Dto.csproj" />
     <ProjectReference Include="..\Repositories\Repository.csproj" />
   </ItemGroup>
 

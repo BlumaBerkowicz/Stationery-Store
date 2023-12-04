@@ -1,23 +1,23 @@
-﻿using Repository;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using Repositories;
 using Repository;
 using System.Text.Json;
 using Entities;
+using Dto;
 
 namespace Repositories
 {
     public class UserRepository :  IUserRepository
     {
-        private readonly MyStoreDBContext _DbContext;
-        public UserRepository(MyStoreDBContext dbContext)
+        private readonly MyStoreDbContext _DbContext;
+        public UserRepository(MyStoreDbContext dbContext)
         {
             _DbContext = dbContext;
         }
 
-        public async Task<User> GetUserByUserNameAndPassword(string userName = "", string password ="")
+        public async Task<User> GetUser(UserLoginDto userDto )
         {
-            return await _DbContext.Users.Where(user => user.Email == userName && user.Password == password).FirstOrDefaultAsync();
+            return await _DbContext.Users.Where(user => user.Email == userDto.Email && user.Password == userDto.Password).FirstOrDefaultAsync();
 
         }
         public async Task<User> UpdateUser(int id, User userToUpdate)
@@ -29,8 +29,8 @@ namespace Repositories
         }
         public async Task<User> Post(User user)
         {
-            _DbContext.Users.AddAsync(user);
-            _DbContext.SaveChangesAsync();
+            await _DbContext.Users.AddAsync(user);
+           await _DbContext.SaveChangesAsync();
             return user;
         }
     }

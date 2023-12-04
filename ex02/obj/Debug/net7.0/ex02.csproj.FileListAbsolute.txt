@@ -243,3 +243,11 @@ C:\Users\The user\Source\Repos\BlumaBerkowicz\ex02\ex02\obj\Debug\net7.0\scopedc
 C:\Users\The user\Source\Repos\BlumaBerkowicz\ex02\ex02\obj\Debug\net7.0\ex02.csproj.CopyComplete
 C:\Users\The user\Source\Repos\BlumaBerkowicz\ex02\ex02\obj\Debug\net7.0\ex02.genruntimeconfig.cache
 C:\Users\The user\Source\Repos\BlumaBerkowicz\ex02\ex02\obj\Debug\net7.0\ref\ex02.dll
+M:\api\ex02\ex02\bin\Debug\net7.0\nlog.config
+M:\api\ex02\ex02\bin\Debug\net7.0\MailKit.dll
+M:\api\ex02\ex02\bin\Debug\net7.0\MimeKit.dll
+M:\api\ex02\ex02\bin\Debug\net7.0\NLog.dll
+M:\api\ex02\ex02\bin\Debug\net7.0\NLog.Extensions.Logging.dll
+M:\api\ex02\ex02\bin\Debug\net7.0\NLog.MailKit.dll
+M:\api\ex02\ex02\bin\Debug\net7.0\NLog.Web.AspNetCore.dll
+M:\api\ex02\ex02\bin\Debug\net7.0\BouncyCastle.Crypto.dll

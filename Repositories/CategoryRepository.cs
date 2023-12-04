@@ -13,14 +13,14 @@ namespace Repository
     public class CategoryRepository : ICategoryRepository
     {
 
-        private readonly MyStoreDBContext _AdoNetContext;
-        public CategoryRepository(MyStoreDBContext AdoNetContext)
+        private readonly MyStoreDbContext _MyStoreDbContext;
+        public CategoryRepository(MyStoreDbContext MyStoreDbContext)
         {
-            _AdoNetContext = AdoNetContext;
+            _MyStoreDbContext = MyStoreDbContext;
         }
         public async Task<IEnumerable<Category>> GetAllCategories()
         {
-            return await _AdoNetContext.Categories.ToListAsync();
+            return await _MyStoreDbContext.Categories.ToListAsync();
         }
     }
 }

@@ -59,3 +59,5 @@ C:\Users\The user\Source\Repos\BlumaBerkowicz\ex02\Repositories\bin\Debug\net7.0
 C:\Users\The user\Source\Repos\BlumaBerkowicz\ex02\Repositories\bin\Debug\net7.0\Entities.pdb
 C:\Users\The user\Source\Repos\BlumaBerkowicz\ex02\Repositories\obj\Debug\net7.0\Repository.csproj.CopyComplete
 C:\Users\The user\Source\Repos\BlumaBerkowicz\ex02\Repositories\obj\Debug\net7.0\ref\Repository.dll
+M:\api\ex02\Repositories\bin\Debug\net7.0\Dto.dll
+M:\api\ex02\Repositories\bin\Debug\net7.0\Dto.pdb

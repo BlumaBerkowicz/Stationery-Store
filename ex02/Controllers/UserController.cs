@@ -16,11 +16,13 @@ namespace ex02.Controllers
     {
       private readonly IUserService  userServices;
         private readonly IMapper _mapper;
+        private readonly ILogger _logger;
 
-       public UserController(IUserService userServices, IMapper mapper)
+        public UserController(IUserService userServices, IMapper mapper,ILogger<UserController> logger)
         {
             this.userServices = userServices;
             _mapper = mapper;
+            _logger = logger;
         }
 
         [Route("login")]
@@ -30,7 +32,7 @@ namespace ex02.Controllers
         {
             var userName = userLOginDto.Email;
             var password = userLOginDto.Password;
-            User user = await userServices.GetUserByUserNameAndPassword(userName, password);
+            User user = await userServices.GetUser(userLOginDto);
             if (user == null)
                 return NoContent();
             return Ok(user);
@@ -41,15 +43,10 @@ namespace ex02.Controllers
         [HttpPost]
         public async Task< CreatedAtActionResult> Post([FromBody] UserDto userDto)
         {
-            try
-            {
-                User newUser = _mapper.Map<UserDto, User>(userDto);
-                await userServices.Post(newUser);
-                return CreatedAtAction(nameof(Get), new { id = newUser.UserId }, newUser);
-            }
-            catch (Exception e)
-                { throw (e); }
-
+            _logger.LogInformation($"Login attempted with userName   {userDto.Email} and password    {userDto.Password}");
+             User newUser = _mapper.Map<UserDto, User>(userDto);
+             await userServices.Post(newUser);
+             return CreatedAtAction(nameof(Get), new { id = newUser.UserId }, newUser);
 
         }
 

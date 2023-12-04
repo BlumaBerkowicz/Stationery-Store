@@ -12,13 +12,15 @@ namespace Repository
 {
     public class RatingRepository : IRatingRepository
     {
-        private readonly MyStoreDBContext _AdoNetContext;
-        public RatingRepository(MyStoreDBContext AdoNetContext)
+        private readonly MyStoreDbContext _MyStoreDbContext;
+        public RatingRepository(MyStoreDbContext MyStoreDbContext)
         {
-            _AdoNetContext = AdoNetContext;
+            _MyStoreDbContext = MyStoreDbContext;
         }
         public async Task Post(Rating rating)
         {
+            await _MyStoreDbContext.Ratings.AddAsync(rating);
+            await _MyStoreDbContext.SaveChangesAsync();
         }
     }
 }

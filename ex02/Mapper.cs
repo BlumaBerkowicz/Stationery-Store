@@ -17,7 +17,8 @@ namespace ex02
 
             CreateMap<OrderItem, OrderItemDto>().ReverseMap();
 
-            CreateMap<Product, ProductDto>().ReverseMap();
+            CreateMap<Product, ProductDto>().ForMember(dest => dest.CategoryName,
+                opts => opts.MapFrom(src => src.Category.CategoryName));
         }
     }
 }

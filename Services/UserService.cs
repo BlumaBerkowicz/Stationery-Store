@@ -2,6 +2,7 @@
 using Repositories;
 using Zxcvbn;
 using Entities;
+using Dto;
 
 namespace Services
 {
@@ -13,13 +14,12 @@ namespace Services
             userRepository = _userRepository;
         }
 
-        public async Task<User> GetUserByUserNameAndPassword(string UserName, string Password)
+        public async Task<User> GetUser(UserLoginDto userDto)
         {
-            return await userRepository.GetUserByUserNameAndPassword(UserName, Password);
+            return await userRepository.GetUser(userDto);
         }
         public async Task<User> UpdateUser(int id, User userToUpdate)
         {
-            if (await check(userToUpdate.Password) < 2)
             if (await check(userToUpdate.Password) < 2)
                 return null;
             return await userRepository.UpdateUser(id, userToUpdate);

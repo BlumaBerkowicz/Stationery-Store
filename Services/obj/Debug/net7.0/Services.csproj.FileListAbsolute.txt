@@ -67,3 +67,5 @@ C:\Users\The user\Source\Repos\BlumaBerkowicz\ex02\Services\obj\Debug\net7.0\Ser
 C:\Users\The user\Source\Repos\BlumaBerkowicz\ex02\Services\obj\Debug\net7.0\refint\Services.dll
 C:\Users\The user\Source\Repos\BlumaBerkowicz\ex02\Services\obj\Debug\net7.0\Services.pdb
 C:\Users\The user\Source\Repos\BlumaBerkowicz\ex02\Services\obj\Debug\net7.0\ref\Services.dll
+M:\api\ex02\Services\bin\Debug\net7.0\Dto.dll
+M:\api\ex02\Services\bin\Debug\net7.0\Dto.pdb
