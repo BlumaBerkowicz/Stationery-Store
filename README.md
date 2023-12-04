@@ -1,5 +1,5 @@
 # Stationary Store
-This 
+Stationary Store, is online shopping
 # Technologies Used:
 For Frontend: HTML, CSS, JavaScript
 
