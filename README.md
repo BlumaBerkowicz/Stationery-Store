@@ -1,6 +1,6 @@
 # Stationary Store
 The project represents a website for selling stationery.
-The site has the option to register, log in, change and update user information
+The site has the option to register, log in, change and update user information.
 On the products page, you have the option to add a product to the cart, filter products by category, price, or name, as well as go to the cart page.
 On the cart page, you can remove a product, see the amount of products in the cart, and place the order.
 
