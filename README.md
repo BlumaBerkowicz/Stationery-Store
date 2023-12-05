@@ -13,21 +13,20 @@ For Database: SQL
 Written in web API.
 Written in full adherence to REST principles.
 When registering on the website, the strength of the password is checked by the ZXCVBN-CORE package.
-We worked in the layering method using DI.
+We worked in the layering method using Dependency Injection.
 In order to gain encapsulating, hiding and flexibility.
-We used await for SCALABILITY.
+We used await for scalability.
 We used the EF orm in the DB FIRST method.
-There is documented SWAGGER
+There is documented swagger.
 We modified dto to prevent circular dependencies, and abstraction of objects.
-We mapped the objects by AUTO MAPPER.
+We mapped the objects by auto mapper.
 There is a configuration file for data that may change.
 Writing to logs.
 The log sends an email in case of an error.
 
-
 # There are two middlewares:
-1.ERRORHANDLINGMIDDLEWARE for catching the errors.
-2. RATINGMIDDLEWARE for documenting all http requests to the SERVER and saving them in the DB.
+1.ErrorHandlingMiddleware for catching the errors.
+2. RatingMiddleware for documenting all http requests to the SERVER and saving them in the DB.
 
 # How to Run
 Pre-requisites:
