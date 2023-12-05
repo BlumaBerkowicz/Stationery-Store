@@ -40,7 +40,6 @@ namespace Services
             {
                 _logger.LogError($"user {order.UserId}  tried perchasing with a difffrent price {order.OrderSum} instead of{sum}");
                 _logger.LogInformation($"user {order.UserId}  tried perchasing with a difffrent price {order.OrderSum} instead of{sum}");
-                Console.WriteLine("error, i think there is a hucker here...");
             }
             order.OrderSum = sum;
             order.OrderDate = DateTime.Now;

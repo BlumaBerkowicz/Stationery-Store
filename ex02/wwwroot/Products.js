@@ -31,9 +31,15 @@ async function filterProducts() {
     }
 }
 async function getCategories() {
+    try {
         const res = await fetch(`api/Category`);
         const data = await res.json();
         return data;
+    }
+    catch (er) {
+        console.log("error",er)
+    }
+    return null;
 }
 
 async function drowProducts(product) {

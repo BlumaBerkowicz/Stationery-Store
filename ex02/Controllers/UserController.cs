@@ -41,9 +41,10 @@ namespace ex02.Controllers
 
         // POST api/<RegisterAndLogin>
         [HttpPost]
-        public async Task< CreatedAtActionResult> Post([FromBody] UserDto userDto)
+        public async Task<CreatedAtActionResult> Post([FromBody] UserDto userDto)
         {
-            _logger.LogInformation($"Login attempted with userName   {userDto.Email} and password    {userDto.Password}");
+     
+            _logger.LogInformation($"Login attempted with userName {userDto.Email} and password {userDto.Password}");
              User newUser = _mapper.Map<UserDto, User>(userDto);
              await userServices.Post(newUser);
              return CreatedAtAction(nameof(Get), new { id = newUser.UserId }, newUser);
@@ -65,8 +66,6 @@ namespace ex02.Controllers
                 return await userServices.check(password);
             }
             return -1;
-
-
         }
         // DELETE api/<RegisterAndLogin>/5
         [HttpDelete("{id}")]

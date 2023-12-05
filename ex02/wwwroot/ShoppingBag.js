@@ -71,7 +71,5 @@ async function placeOrder() {
     else {
         alert("you have to login");
     window.location.href = "./home.html";
-    }
-
-    
+    } 
 }

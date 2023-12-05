@@ -1,5 +1,6 @@
 # Stationary Store
-Stationary Store, is online shopping
+Stationary Store, is online shopping.
+
 # Technologies Used:
 For Frontend: HTML, CSS, JavaScript
 
@@ -8,7 +9,8 @@ For Backend: C#, ASP.NET
 For Database: SQL
 
 # Pre-requisites:
-Microsoft Visual Studio
+Vs 
+Microsoft Visual Studio 2022 version (and on). 
 Microsoft SQL Server Management Studio (SSMS)
 
 # How to Run

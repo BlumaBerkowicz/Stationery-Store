@@ -26,6 +26,7 @@
 
   <ItemGroup>
     <Folder Include="wwwroot\ClientSidePages\" />
+    <Folder Include="wwwroot\NewFolder\" />
   </ItemGroup>
 
 </Project>

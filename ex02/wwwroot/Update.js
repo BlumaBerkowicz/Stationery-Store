@@ -18,7 +18,6 @@
                 body: JSON.stringify(updateUser)
             });
             const response = await res.json();
-            console.log(response)
             alert("update succeed");
         }
         catch (error) {
@@ -41,15 +40,20 @@ const loadUpdatePage = async () => {
 }
 
 const checkCode = async (password) => {
-    console.log("im here")
-    const res = await fetch('api/user/check', {
-        method: 'POST',
-        headers: {
-            'Content-Type': 'application/json'
-        },
-        body: JSON.stringify(password)
-    });
-    if (!res.ok)
-        throw new Error("weak password")
-    return await res.json();
+    try {
+        const res = await fetch('api/user/check', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(password)
+        });
+        if (!res.ok)
+            throw new Error("weak password")
+        return await res.json();
+    }
+    catch (er) {
+        console.log("Error", er);
+    }
+   
 }
